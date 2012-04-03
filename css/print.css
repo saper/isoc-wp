@@ -1,0 +1,40 @@
+#headerutility, .more, #slideshow, #footer ul, .region-navigation, #aside-left, #aside-right, .breadcrumb, .sharethis, #skip-link, div.tabs, .links, .taxonomy, .pager, .feed-icons, #block-menu-menu-language, #search-block-form, .front #columns .views-field-field-image, .view-footer, #block-block-10{
+ display:none;
+	visibility:hidden;
+}
+html{border:0;}
+a{
+ color:#000;
+ text-decoration:none;
+}
+#header{ padding:0;}
+.logo {
+	margin:0 0 0 47px;
+}
+body{
+	background-image:none;
+	background:#FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+#copy, .home-left, .home-center, .home-right{
+width:650px;
+height:auto;
+margin:0 0 10px 0;
+padding:0;
+border:0;
+font-size:13px;
+text-align:left;
+background-image:none;
+}
+ul, #copy ul{
+ list-style:disc;
+ list-style-position:inside;
+}
+ul li, #copy ul li{
+ background:none;
+}
+#footer{
+	border:0px;
+	width:650px;
+	margin:0;
+}

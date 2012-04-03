@@ -1,0 +1,154 @@
+/* Reset default browser styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, caption {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: top;
+	border: 0;
+	background: transparent;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+
+blockquote, q {
+	quotes: none;
+	margin: 1em 2em;
+}
+
+/* Lists */
+ul,
+ol {
+  margin-left: 0;
+  padding-left:0; 
+}
+.block ul,
+.item-list ul,
+.item-list ul li,
+.form-item,
+.form-checkboxes,
+.form-radios,
+fieldset,
+ul.menu,
+ul.menu li,
+ul.links,
+ul.links li {
+  margin: 0;
+  padding: 0;
+}
+
+ul ul, ul ol,
+ol ol, ol ul,
+.block ul ul, .block ul ol,
+.block ol ol, .block ol ul,
+.item-list ul ul, .item-list ul ol,
+.item-list ol ol, .item-list ol ul {
+  margin: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+		list-style:none;
+}
+.item-list ul li /* Drupal override */ {
+  margin: 0;
+  padding: 0;
+  list-style: inherit;
+}
+
+ul.menu li,
+li.expanded,
+li.collapsed,
+li.leaf /* Drupal override */ {
+  margin: 0;
+  padding: 0;
+}
+
+#user-login-form {
+  text-align: left;
+}
+
+.form-item label {
+  font-weight: normal;
+}
+
+/* Definition List */
+dt {
+  margin: 0;
+  padding: 0;
+}
+dd {
+  margin: 0 0 0 2em;
+  padding: 0;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+		border-spacing: 0;
+}
+th,
+thead th,
+tbody th {
+  text-align: center;
+  padding: 0;
+  border-bottom: none;
+}
+
+tbody {  border-top: none;}
+
+/* Abbreviations */
+abbr {
+  border-bottom: 1px dotted #d7d7d7;
+  cursor: help;
+  white-space: nowrap;
+}
+abbr.created /* Date-based "abbreviations" show computer-friendly timestamps which are not human-friendly. */ {
+  border: none;
+  cursor: auto;
+  white-space: normal;
+}
+
+/* Horizontal divider */
+hr{
+background:#ccc;
+border:0;
+color:#ccc;
+height:1px;
+margin:20px 0;
+clear:both;
+}
+
+/* Forms */
+form {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+  margin: 1em 0;
+  padding: 0.5em;
+}
+input, textarea, select, option{
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+}
+input, textarea{
+color:#555;
+padding:4px 2px 3px 2px;
+}
+input[type="text"], textarea{
+border:1px solid #dfdfdf;
+}
+
+/* default button */
+input.submit, input[type="submit"]{
+	border:1px solid #d9d7d7;
+	background:#d9d7d7;
+	color:#222;
+	font-size:12px;
+	font-weight:bold;
+	margin:4px 0 0 0;
+	padding:3px 12px;
+	cursor:pointer;
+}
+
+.clear{ clear:both;}
