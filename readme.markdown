@@ -120,24 +120,32 @@ NOTE: Logo should be 197px x 82px.
 Adding Images To The Home Page Slideshow
 ----------------------------------------
 
-1.	From the left-hand column, find the Homepage Slides section and click Homepage Slides or Add New
-2.	Add title
-3.	Enter short body content
-4.	Upload a Featured Image, 976px x 338px
-5.	Enter "Additional Information", Sub-title (if applicable), Read More Link (URL), Read More Text
-6.	Save or Publish Changes
+1.      From the left-hand column, find the Homepage Slides section and
+        click Homepage Slides or Add New
+2.      Add title
+3.      Enter short body content
+4.      Upload a Featured Image, 976px x 338px
+5.      Enter "Additional Information", Sub-title (if applicable), Read
+        More Link (URL), Read More Text
+6.      Save or Publish Changes
 
 Controlling Boxes on top of Slideshow
 -------------------------------------
 
-1.	From the left-hand column, find the Appearance section and click Widgets
-2.	Find Home Slideshow Widget Area
-**	Text widget is for Social Media - Be sure to upload social icons into Media Library (or theme images directory), grab the URL.  Replace img src location with correct image source URL; add link URL to the `<a href="">` tag.
-**	Save.
-3.	Find Home Slideshow Widget Area2
-*	Add text (no title) with link to appropriate page or section on web site.
-4	Find Home Slideshow Widget Area 3
-*	Add text (no title) with link to appropriate page or section on web site.
+1.      From the left-hand column, find the Appearance section and click
+        Widgets
+2.      Find Home Slideshow Widget Area
+**      Text widget is for Social Media - Be sure to upload social icons
+        into Media Library (or theme images directory), grab the URL.
+        Replace img src location with correct image source URL; add link
+        URL to the `<a href="">` tag.
+**      Save.
+3.      Find Home Slideshow Widget Area2
+*       Add text (no title) with link to appropriate page or section on
+        web site.
+4       Find Home Slideshow Widget Area 3
+*       Add text (no title) with link to appropriate page or section on
+        web site.
 
 NOTE: Only one widget can be assigned to each widget area in this section.
 
@@ -170,10 +178,13 @@ Changing Issues Spotlight Widget
 Adding Social Media to Right Sidebar on Internal pages
 ------------------------------------------------------
 
-1.	From the left-hand column, find the Appearance section and click Widgets
-2.	Find the Secondary Widget Area
-3.	Copy information as on the home page widget for social icon, but do not include the `<div class="content">` at the beginning, nor `</div>` at the end. 
-4.	Save
+1.      From the left-hand column, find the Appearance section and click
+        Widgets
+2.      Find the Secondary Widget Area
+3.      Copy information as on the home page widget for social icon, but
+        do not include the `<div class="content">` at the beginning, nor
+        `</div>` at the end.
+4.      Save
 
 Adding Items Right Sidebar on Internal pages
 --------------------------------------------
@@ -194,11 +205,13 @@ Modify Footer Address
 Modifying Menus
 ---------------
 
-1.	From the left-hand column, find the Appearance section and click Menus
-2.	Select Footer Menu, Navigation or Utility Menu across the top.  
-3.	On the left hand column, you will see a list of pages. Select the page you wish to add to the menu.  
-4.	Drag and drop a menu to be in the correct order.
-5.	Save.
+1.      From the left-hand column, find the Appearance section and click
+        Menus
+2.      Select Footer Menu, Navigation or Utility Menu across the top.
+3.      On the left hand column, you will see a list of pages. Select
+        the page you wish to add to the menu.
+4.      Drag and drop a menu to be in the correct order.
+5.      Save.
 
 
 ------
@@ -218,15 +231,18 @@ go into the many capabilities offered by this plugin.
 
 Within the theme, adding an event involves this process:
 
-1.	From the left-hand column, find the Events section and click Edit or Add New
-2.	Add Name
-3.	Add Event date
-4.	Add Event time
-5.	Enter Location information
-6.	Enter Details 
-7.	Upload Event image
-8.	Submit Event
-9.	Events will need to be approved before going live. To approve an event, click on Events, click on highlighted event and select "approve" or "disapprove".
+1.      From the left-hand column, find the Events section and click
+        Edit or Add New
+2.      Add Name
+3.      Add Event date
+4.      Add Event time
+5.      Enter Location information
+6.      Enter Details
+7.      Upload Event image
+8.      Submit Event
+9.      Events will need to be approved before going live. To approve an
+        event, click on Events, click on highlighted event and select
+        "approve" or "disapprove".
 
 ------
 
