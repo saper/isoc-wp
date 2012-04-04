@@ -23,36 +23,12 @@ are available for free.
 
 This Readme document covers the following:
 
-1. Automatic Updates
-2. Installation
+1. Installation
+2. Automatic Updates
 3. Configuration
 4. Using the Events Manager Plugin
 5. Using a Child Theme For Customization
 6. Support / Questions
-
-------
-
-Automatic Updates
-=================
-
-This theme is designed so that you will receive "automatic update" notifications
-when a new version of the theme is uploaded.  To receive these notifications, you 
-need to install the "Theme Updater" plugin from:
-
-> <http://wordpress.org/extend/plugins/theme-updater/>
-
-(Note that the plugin *does* work with WordPress 3.3.x.)
-
-You simply activate the plugin and it will periodically check for updates. You
-will then see on your Themes panel that an update is available. More
-information about this Github-based update system can be found 
-[in this blog post](http://www.disruptiveconversations.com/2012/02/how-to-auto-update-wordpress-custom-themes-using-github.html).
-
-**IMPORTANT** - Note that with automatic updates you should not directly edit
-the theme files to customize the site.  Any such direct edits will be removed
-with the next automatic update.  If you wish to customize the theme beyond what
-is available in the web panels, you should consider using a "child theme" as
-noted later in the document.
 
 ------
 
@@ -97,6 +73,30 @@ theme has been tested with this plugin:
 * [Events Manager](http://wordpress.org/extend/plugins/events-manager/)
 
 More information about using the Events Manager is provided later in this file.
+
+------
+
+Automatic Updates
+=================
+
+This theme is designed so that you will receive "automatic update" notifications
+when a new version of the theme is uploaded.  To receive these notifications, you 
+need to install the "Theme Updater" plugin from:
+
+> <http://wordpress.org/extend/plugins/theme-updater/>
+
+(Note that the plugin *does* work with WordPress 3.3.x.)
+
+You simply activate the plugin and it will periodically check for updates. You
+will then see on your Themes panel that an update is available. More
+information about this Github-based update system can be found 
+[in this blog post](http://www.disruptiveconversations.com/2012/02/how-to-auto-update-wordpress-custom-themes-using-github.html).
+
+**IMPORTANT** - Note that with automatic updates you should not directly edit
+the theme files to customize the site.  Any such direct edits will be removed
+with the next automatic update.  If you wish to customize the theme beyond what
+is available in the web panels, you should consider using a "child theme" as
+noted later in the document.
 
 ------
 
