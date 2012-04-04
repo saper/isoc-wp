@@ -63,7 +63,7 @@ The initial installation of the theme involves the following steps:
 
 1. Download a ZIP file for the latest version of the theme from this URL:
 
-> (url)
+> > <https://github.com/InternetSociety/isoc-wp/tags>
 
 2. In your WordPress admin area (or Network Admin if you are using WordPress
 MultiSite), go into the "Themes" panel, choose "Add New" and then choose the 
@@ -71,7 +71,7 @@ MultiSite), go into the "Themes" panel, choose "Add New" and then choose the
 
 3. Upload the ZIP file you downloaded in step #1.
 
-> **IMPORTANT** - The theme unzips into a directory called 'isoc-wp'. If you
+> > **IMPORTANT** - The theme unzips into a directory called 'isoc-wp'. If you
 already have a theme using that same directory name, bad things will happen.
 The safest plan would be to remove the previous theme using that directory name.
 
