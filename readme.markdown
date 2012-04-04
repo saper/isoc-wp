@@ -278,3 +278,6 @@ with the theme.
 
 Thank you for using this WordPress theme - please do offer suggestions and feedback
 through the issue tracker.  Thank you.
+
+This theme is licensed for usage under the terms of the GPL v2.0. See the file
+"license.txt" for more information.
