@@ -66,7 +66,7 @@ already have a theme using that same directory name, bad things will happen.
 The safest plan would be to remove the previous theme using that directory name.
 
 To begin, you need to download a ZIP file for the latest version of the theme 
-from this URL: 
+from this URL:
 
 > <https://github.com/InternetSociety/isoc-wp/tags>
 
