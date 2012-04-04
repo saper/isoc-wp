@@ -29,6 +29,7 @@ This Readme document covers the following:
 4. Using the Events Manager Plugin
 5. Using a Child Theme For Customization
 6. Support / Questions
+7. Contributors and Contributing Changes
 
 ------
 
@@ -52,7 +53,7 @@ MultiSite) do the following:
 1. Go into the "Themes" panel, choose "Add New" and then choose the 
 "Upload" link.  
 
-2. Upload the ZIP file you downloaded in step #1.
+2. Upload the ZIP file you downloaded.
 
 3. Activate the theme for your site.
 
@@ -292,8 +293,30 @@ with the theme.
 
 ------
 
+Contributors and Contributing Changes
+=====================================
+
+If you are familiar with modifying WordPress themes and want to make a direct
+contribution of code changes, we certainly welcome such contributions.  You can
+either:
+
+1. [Raise an issue in the issue tracker](https://github.com/InternetSociety/isoc-wp/issues) 
+   and include your code in that issue.
+   
+2. If you are familiar with how Github works, you can fork the repository, 
+   commit your changes and issue a pull request.
+
+To date, the following people or organizations have contributed to this theme:
+
+* Balance Interactive
+* Dan York (ISOC staff)
+
+------
+
 Thank you for using this WordPress theme - please do offer suggestions and feedback
 through the issue tracker.  Thank you.
 
 This theme is licensed for usage under the terms of the GPL v2.0. See the file
 "license.txt" for more information.
+
+Copyright 2012 Internet Society
