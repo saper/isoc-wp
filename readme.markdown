@@ -124,7 +124,7 @@ Adding Images To The Home Page Slideshow
 2.	Add title
 3.	Enter short body content
 4.	Upload a Featured Image, 976px x 338px
-5.	Enter “Additional Information”, Sub-title (if applicable), Read More Link (URL), Read More Text
+5.	Enter "Additional Information", Sub-title (if applicable), Read More Link (URL), Read More Text
 6.	Save or Publish Changes
 
 Controlling Boxes on top of Slideshow
@@ -132,7 +132,7 @@ Controlling Boxes on top of Slideshow
 
 1.	From the left-hand column, find the Appearance section and click Widgets
 2.	Find Home Slideshow Widget Area
-**	Text widget is for Social Media – Be sure to upload social icons into Media Library (or theme images directory), grab the URL.  Replace img src location with correct image source URL; add link URL to the <a href=””> tag.
+**	Text widget is for Social Media - Be sure to upload social icons into Media Library (or theme images directory), grab the URL.  Replace img src location with correct image source URL; add link URL to the `<a href="">` tag.
 **	Save.
 3.	Find Home Slideshow Widget Area2
 *	Add text (no title) with link to appropriate page or section on web site.
@@ -146,7 +146,7 @@ Adding News
 
 1.	From the left-hand column, find the Posts section and click Edit or Add New
 2.	Create or edit a post
-3.	Assign it to the “News” category.
+3.	Assign it to the "News" category.
 4.	Save or Publish
 
 Adding Issues Spotlight
@@ -155,7 +155,7 @@ Adding Issues Spotlight
 1.	From the left-hand column, find the Posts section and click Edit or Add New
 2.	Create or edit a post
 3.	Add an Excerpt, which is visible on the home page.
-4.	Assign it to the “Resources” category.
+4.	Assign it to the "Resources" category.
 5.	Add a Featured Image, if applicable.  Image should be sized to 128px x 80px
 6.	Save or Publish
 
@@ -172,7 +172,7 @@ Adding Social Media to Right Sidebar on Internal pages
 
 1.	From the left-hand column, find the Appearance section and click Widgets
 2.	Find the Secondary Widget Area
-3.	Copy information as on the home page widget for social icon, but do not include the ‘<div class=”content”> at the beginning, nor “</div>” at the end. 
+3.	Copy information as on the home page widget for social icon, but do not include the `<div class="content">` at the beginning, nor `</div>` at the end. 
 4.	Save
 
 Adding Items Right Sidebar on Internal pages
@@ -226,7 +226,7 @@ Within the theme, adding an event involves this process:
 6.	Enter Details 
 7.	Upload Event image
 8.	Submit Event
-9.	Events will need to be approved before going live. To approve an event, click on Events, click on highlighted event and select “approve” or “disapprove”.
+9.	Events will need to be approved before going live. To approve an event, click on Events, click on highlighted event and select "approve" or "disapprove".
 
 ------
 
