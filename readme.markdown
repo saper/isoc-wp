@@ -65,17 +65,20 @@ The initial installation of the theme involves the following steps:
 already have a theme using that same directory name, bad things will happen.
 The safest plan would be to remove the previous theme using that directory name.
 
-1. Download a ZIP file for the latest version of the theme from this URL:  
-  
-<https://github.com/InternetSociety/isoc-wp/tags>
+To begin, you need to download a ZIP file for the latest version of the theme 
+from this URL: 
 
-2. In your WordPress admin area (or Network Admin if you are using WordPress
-MultiSite), go into the "Themes" panel, choose "Add New" and then choose the 
+> <https://github.com/InternetSociety/isoc-wp/tags>
+
+Next, in your WordPress admin area (or Network Admin if you are using WordPress
+MultiSite) do the following:
+
+1. Go into the "Themes" panel, choose "Add New" and then choose the 
 "Upload" link.  
 
-3. Upload the ZIP file you downloaded in step #1.
+2. Upload the ZIP file you downloaded in step #1.
 
-4. Activate the theme for your site.
+3. Activate the theme for your site.
 
 Next you will want to go through the steps in the next section on configuration
 to make any changes, update the home page slides, etc.
@@ -92,6 +95,8 @@ Additionally, if you are not already using a plugin for managing events, the
 theme has been tested with this plugin:
 
 * [Events Manager](http://wordpress.org/extend/plugins/events-manager/)
+
+More information about using the Events Manager is provided later in this file.
 
 ------
 
