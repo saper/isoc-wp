@@ -53,7 +53,7 @@ MultiSite) do the following:
 1. Go into the "Themes" panel, choose "Add New" and then choose the 
 "Upload" link.  
 
-2. Upload the ZIP file you downloaded in step #1.
+2. Upload the ZIP file you downloaded.
 
 3. Activate the theme for your site.
 
