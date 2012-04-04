@@ -23,13 +23,32 @@ are available for free.
 
 This Readme document covers the following:
 
-1. Installation
-2. Automatic Updates
+1. Required plugins
+2. Installation
 3. Configuration
-4. Using the Events Manager Plugin
-5. Using a Child Theme For Customization
-6. Support / Questions
-7. Contributors and Contributing Changes
+4. Automatic Updates
+5. Using the Events Manager Plugin
+6. Using a Child Theme For Customization
+7. Support / Questions
+8. Contributors and Contributing Changes
+
+------
+
+Required plugins
+================
+
+The theme requires the following plugins to be installed and activated:
+
+* [Breadcrumbs NavXT](http://wordpress.org/extend/plugins/breadcrumb-navxt/)
+* [Category Posts Widget](http://wordpress.org/extend/plugins/category-posts/)
+* [Widget Logic](http://wordpress.org/extend/plugins/widget-logic/)
+
+Additionally, if you are not already using a plugin for managing events, the
+theme has been tested with this plugin:
+
+* [Events Manager](http://wordpress.org/extend/plugins/events-manager/)
+
+More information about using the Events Manager is provided later in this file.
 
 ------
 
@@ -59,47 +78,6 @@ MultiSite) do the following:
 
 Next you will want to go through the steps in the next section on configuration
 to make any changes, update the home page slides, etc.
-
-Required Plugins
-----------------
-The theme requires the following plugins to be installed and activated:
-
-* [Breadcrumbs NavXT](http://wordpress.org/extend/plugins/breadcrumb-navxt/)
-* [Category Posts Widget](http://wordpress.org/extend/plugins/category-posts/)
-* [Widget Logic](http://wordpress.org/extend/plugins/widget-logic/)
-
-Additionally, if you are not already using a plugin for managing events, the
-theme has been tested with this plugin:
-
-* [Events Manager](http://wordpress.org/extend/plugins/events-manager/)
-
-More information about using the Events Manager is provided later in this file.
-
-------
-
-Automatic Updates
-=================
-
-This theme is designed so that you will receive "automatic update" notifications
-when a new version of the theme is uploaded.  To receive these notifications, you 
-need to install the "Theme Updater" plugin from:
-
-> <http://wordpress.org/extend/plugins/theme-updater/>
-
-(Note that the plugin *does* work with WordPress 3.3.x.)
-
-You simply activate the plugin and it will periodically check for updates. You
-will then see on your Themes panel that an update is available. More
-information about this Github-based update system can be found 
-[in this blog post](http://www.disruptiveconversations.com/2012/02/how-to-auto-update-wordpress-custom-themes-using-github.html).
-
-**IMPORTANT** - Note that with automatic updates you should not directly edit
-the theme files to customize the site.  Any such direct edits will be removed
-with the next automatic update.  If you wish to customize the theme beyond what
-is available in the web panels, you should consider using a "child theme" as
-noted later in the document.
-
-------
 
 Configuration
 =============
@@ -214,6 +192,30 @@ Modifying Menus
 4.      Drag and drop a menu to be in the correct order.
 5.      Save.
 
+
+------
+
+Automatic Updates
+=================
+
+This theme is designed so that you will receive "automatic update" notifications
+when a new version of the theme is uploaded.  To receive these notifications, you 
+need to install the "Theme Updater" plugin from:
+
+> <http://wordpress.org/extend/plugins/theme-updater/>
+
+(Note that the plugin *does* work with WordPress 3.3.x.)
+
+You simply activate the plugin and it will periodically check for updates. You
+will then see on your Themes panel that an update is available. More
+information about this Github-based update system can be found 
+[in this blog post](http://www.disruptiveconversations.com/2012/02/how-to-auto-update-wordpress-custom-themes-using-github.html).
+
+**IMPORTANT** - Note that with automatic updates you should not directly edit
+the theme files to customize the site.  Any such direct edits will be removed
+with the next automatic update.  If you wish to customize the theme beyond what
+is available in the web panels, you should consider using a "child theme" as
+noted later in the document.
 
 ------
 
