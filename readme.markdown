@@ -312,6 +312,7 @@ To date, the following people or organizations have contributed to this theme:
 
 * Balance Interactive
 * Dan York (ISOC staff)
+* Marcin Cieślak (ISOC Poland chapter)
 
 ------
 
