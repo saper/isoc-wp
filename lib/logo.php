@@ -36,7 +36,7 @@ if (isset($_GET['page']) && $_GET['page'] == 'theme-logo') {
 function theme_logo(){
 	$logo = get_option("tl_logo_src");
 	if (!$logo) {
-		$logo = get_bloginfo('template_url') . "/images/no-logo.png";
+		$logo = get_bloginfo('template_url') . "/images/logo.png";
 	}
 	echo '<img src="'. $logo .'" alt="'.get_option("blogname").'" />';
 }
