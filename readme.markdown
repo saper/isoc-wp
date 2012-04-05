@@ -23,13 +23,32 @@ are available for free.
 
 This Readme document covers the following:
 
-1. Installation
-2. Automatic Updates
+1. Required plugins
+2. Installation
 3. Configuration
-4. Using the Events Manager Plugin
-5. Using a Child Theme For Customization
-6. Support / Questions
-7. Contributors and Contributing Changes
+4. Automatic Updates
+5. Using the Events Manager Plugin
+6. Using a Child Theme For Customization
+7. Support / Questions
+8. Contributors and Contributing Changes
+
+------
+
+Required plugins
+================
+
+The theme requires the following plugins to be installed and activated:
+
+* [Breadcrumbs NavXT](http://wordpress.org/extend/plugins/breadcrumb-navxt/)
+* [Category Posts Widget](http://wordpress.org/extend/plugins/category-posts/)
+* [Widget Logic](http://wordpress.org/extend/plugins/widget-logic/)
+
+Additionally, if you are not already using a plugin for managing events, the
+theme has been tested with this plugin:
+
+* [Events Manager](http://wordpress.org/extend/plugins/events-manager/)
+
+More information about using the Events Manager is provided later in this file.
 
 ------
 
@@ -60,20 +79,119 @@ MultiSite) do the following:
 Next you will want to go through the steps in the next section on configuration
 to make any changes, update the home page slides, etc.
 
-Required Plugins
-----------------
-The theme requires the following plugins to be installed and activated:
+Configuration
+=============
 
-* [Breadcrumbs NavXT](http://wordpress.org/extend/plugins/breadcrumb-navxt/)
-* [Category Posts Widget](http://wordpress.org/extend/plugins/category-posts/)
-* [Widget Logic](http://wordpress.org/extend/plugins/widget-logic/)
+The next sections describe the steps to perform various configuration tasks within
+this theme.
 
-Additionally, if you are not already using a plugin for managing events, the
-theme has been tested with this plugin:
+All of these steps assume you are logged into WordPress and have access to the 
+administration panels of your site.
 
-* [Events Manager](http://wordpress.org/extend/plugins/events-manager/)
+Changing the Logo
+-----------------
+1.	From the left-hand column, find the Appearance section and click Theme Logo
+2.	Enter URL of logo, or browse to upload new image.
+3.	Save Changes
 
-More information about using the Events Manager is provided later in this file.
+NOTE: Logo should be 197px x 82px.
+
+Adding Images To The Home Page Slideshow
+----------------------------------------
+
+1.      From the left-hand column, find the Homepage Slides section and
+        click Homepage Slides or Add New
+2.      Add title
+3.      Enter short body content
+4.      Upload a Featured Image, 976px x 338px
+5.      Enter "Additional Information", Sub-title (if applicable), Read
+        More Link (URL), Read More Text
+6.      Save or Publish Changes
+
+Controlling Boxes on top of Slideshow
+-------------------------------------
+
+1.      From the left-hand column, find the Appearance section and click
+        Widgets
+2.      Find Home Slideshow Widget Area
+**      Text widget is for Social Media - Be sure to upload social icons
+        into Media Library (or theme images directory), grab the URL.
+        Replace img src location with correct image source URL; add link
+        URL to the `<a href="">` tag.
+**      Save.
+3.      Find Home Slideshow Widget Area2
+*       Add text (no title) with link to appropriate page or section on
+        web site.
+4       Find Home Slideshow Widget Area 3
+*       Add text (no title) with link to appropriate page or section on
+        web site.
+
+NOTE: Only one widget can be assigned to each widget area in this section.
+
+Adding News
+-----------
+
+1.	From the left-hand column, find the Posts section and click Edit or Add New
+2.	Create or edit a post
+3.	Assign it to the "News" category.
+4.	Save or Publish
+
+Adding Issues Spotlight
+-----------------------
+
+1.	From the left-hand column, find the Posts section and click Edit or Add New
+2.	Create or edit a post
+3.	Add an Excerpt, which is visible on the home page.
+4.	Assign it to the "Resources" category.
+5.	Add a Featured Image, if applicable.  Image should be sized to 128px x 80px
+6.	Save or Publish
+
+Changing Issues Spotlight Widget
+--------------------------------
+
+1.	From the left-hand column, find the Appearance section and click Widgets
+2.	Find the Home Right Widget Area
+3.	Change title, Category, number of posts, or sort by.
+4.	Save
+
+Adding Social Media to Right Sidebar on Internal pages
+------------------------------------------------------
+
+1.      From the left-hand column, find the Appearance section and click
+        Widgets
+2.      Find the Secondary Widget Area
+3.      Copy information as on the home page widget for social icon, but
+        do not include the `<div class="content">` at the beginning, nor
+        `</div>` at the end.
+4.      Save
+
+Adding Items Right Sidebar on Internal pages
+--------------------------------------------
+
+1.	From the left-hand column, find the Appearance section and click Widgets
+2.	Find the Secondary Widget Area2
+3.	Drag and drop Text or other widget types.   (no title)
+4.	Save.
+
+Modify Footer Address
+---------------------
+
+1.	From the left-hand column, find the Appearance section and click Widgets
+2.	Find the Footer Widget Area
+3.	Edit text
+4.	Save
+
+Modifying Menus
+---------------
+
+1.      From the left-hand column, find the Appearance section and click
+        Menus
+2.      Select Footer Menu, Navigation or Utility Menu across the top.
+3.      On the left hand column, you will see a list of pages. Select
+        the page you wish to add to the menu.
+4.      Drag and drop a menu to be in the correct order.
+5.      Save.
+
 
 ------
 
@@ -101,109 +219,6 @@ noted later in the document.
 
 ------
 
-Configuration
-=============
-
-The next sections describe the steps to perform various configuration tasks within
-this theme.
-
-All of these steps assume you are logged into WordPress and have access to the 
-administration panels of your site.
-
-Changing the Logo
------------------
-1.	From the left-hand column, find the Appearance section and click Theme Logo
-2.	Enter URL of logo, or browse to upload new image.
-3.	Save Changes
-
-NOTE: Logo should be 197px x 82px.
-
-Adding Images To The Home Page Slideshow
-----------------------------------------
-
-1.	From the left-hand column, find the Homepage Slides section and click Homepage Slides or Add New
-2.	Add title
-3.	Enter short body content
-4.	Upload a Featured Image, 976px x 338px
-5.	Enter “Additional Information”, Sub-title (if applicable), Read More Link (URL), Read More Text
-6.	Save or Publish Changes
-
-Controlling Boxes on top of Slideshow
--------------------------------------
-
-1.	From the left-hand column, find the Appearance section and click Widgets
-2.	Find Home Slideshow Widget Area
-**	Text widget is for Social Media – Be sure to upload social icons into Media Library (or theme images directory), grab the URL.  Replace img src location with correct image source URL; add link URL to the <a href=””> tag.
-**	Save.
-3.	Find Home Slideshow Widget Area2
-*	Add text (no title) with link to appropriate page or section on web site.
-4	Find Home Slideshow Widget Area 3
-*	Add text (no title) with link to appropriate page or section on web site.
-
-NOTE: Only one widget can be assigned to each widget area in this section.
-
-Adding News
------------
-
-1.	From the left-hand column, find the Posts section and click Edit or Add New
-2.	Create or edit a post
-3.	Assign it to the “News” category.
-4.	Save or Publish
-
-Adding Issues Spotlight
------------------------
-
-1.	From the left-hand column, find the Posts section and click Edit or Add New
-2.	Create or edit a post
-3.	Add an Excerpt, which is visible on the home page.
-4.	Assign it to the “Resources” category.
-5.	Add a Featured Image, if applicable.  Image should be sized to 128px x 80px
-6.	Save or Publish
-
-Changing Issues Spotlight Widget
---------------------------------
-
-1.	From the left-hand column, find the Appearance section and click Widgets
-2.	Find the Home Right Widget Area
-3.	Change title, Category, number of posts, or sort by.
-4.	Save
-
-Adding Social Media to Right Sidebar on Internal pages
-------------------------------------------------------
-
-1.	From the left-hand column, find the Appearance section and click Widgets
-2.	Find the Secondary Widget Area
-3.	Copy information as on the home page widget for social icon, but do not include the ‘<div class=”content”> at the beginning, nor “</div>” at the end. 
-4.	Save
-
-Adding Items Right Sidebar on Internal pages
---------------------------------------------
-
-1.	From the left-hand column, find the Appearance section and click Widgets
-2.	Find the Secondary Widget Area2
-3.	Drag and drop Text or other widget types.   (no title)
-4.	Save.
-
-Modify Footer Address
----------------------
-
-1.	From the left-hand column, find the Appearance section and click Widgets
-2.	Find the Footer Widget Area
-3.	Edit text
-4.	Save
-
-Modifying Menus
----------------
-
-1.	From the left-hand column, find the Appearance section and click Menus
-2.	Select Footer Menu, Navigation or Utility Menu across the top.  
-3.	On the left hand column, you will see a list of pages. Select the page you wish to add to the menu.  
-4.	Drag and drop a menu to be in the correct order.
-5.	Save.
-
-
-------
-
 Using The Events Manager
 ========================
 
@@ -219,15 +234,18 @@ go into the many capabilities offered by this plugin.
 
 Within the theme, adding an event involves this process:
 
-1.	From the left-hand column, find the Events section and click Edit or Add New
-2.	Add Name
-3.	Add Event date
-4.	Add Event time
-5.	Enter Location information
-6.	Enter Details 
-7.	Upload Event image
-8.	Submit Event
-9.	Events will need to be approved before going live. To approve an event, click on Events, click on highlighted event and select “approve” or “disapprove”.
+1.      From the left-hand column, find the Events section and click
+        Edit or Add New
+2.      Add Name
+3.      Add Event date
+4.      Add Event time
+5.      Enter Location information
+6.      Enter Details
+7.      Upload Event image
+8.      Submit Event
+9.      Events will need to be approved before going live. To approve an
+        event, click on Events, click on highlighted event and select
+        "approve" or "disapprove".
 
 ------
 

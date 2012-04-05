@@ -34,7 +34,11 @@ if (isset($_GET['page']) && $_GET['page'] == 'theme-logo') {
 
 
 function theme_logo(){
-	echo '<img src="'.get_option("tl_logo_src").'" alt="'.get_option("blogname").'" />';
+	$logo = get_option("tl_logo_src");
+	if (!$logo) {
+		$logo = get_bloginfo('template_url') . "/images/no-logo.png";
+	}
+	echo '<img src="'. $logo .'" alt="'.get_option("blogname").'" />';
 }
 
 function menu_item(){
