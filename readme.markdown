@@ -23,9 +23,9 @@ are available for free.
 
 This Readme document covers the following:
 
-1. Required plugins
-2. Installation
-3. Initial Configuration
+1. [Required plugins][1]
+2. [Installation][2]
+3. [Initial Configuration][3]
 4. Configuration
 5. Automatic Updates
 6. Using the Events Manager Plugin
@@ -35,8 +35,8 @@ This Readme document covers the following:
 
 ------------------------------------------------------------------------
 
-Required plugins
-================
+[1] Required plugins
+====================
 
 The theme requires the following plugins to be installed and activated:
 
@@ -53,8 +53,8 @@ More information about using the Events Manager is provided later in this file.
 
 ------------------------------------------------------------------------
 
-Installation
-============
+[2] Installation
+================
 
 The initial installation of the theme involves the following steps:
 
@@ -82,8 +82,8 @@ to make any changes, update the home page slides, etc.
 
 ------------------------------------------------------------------------
 
-Initial Configuration
-=====================
+[3] Initial Configuration
+=========================
 
 Before you start using the theme, you will want to perform these steps:
 
@@ -111,6 +111,18 @@ Add News and Resources Categories
 2. Add two new categories:
    * News
    * Categories
+   
+Adding Images To The Home Page Slideshow
+----------------------------------------
+
+1.      From the left-hand column, find the Homepage Slides section and
+        click Homepage Slides or Add New
+2.      Add title
+3.      Enter short body content
+4.      Upload a Featured Image, 976px x 338px
+5.      Enter "Additional Information", Sub-title (if applicable), Read
+        More Link (URL), Read More Text
+6.      Save or Publish Changes
 
 Create Necessary Widgets
 ------------------------
@@ -118,7 +130,61 @@ Create Necessary Widgets
 The theme uses a number of widgets.  To create these widgets, go to the *Appearance*
 section and choose *Widgets*.
 
-### "Follow Us" Social Media Icons
+### Navigation "Breadcrumbs"
+
+1. Open the *Highlighted Widget Area*
+2. Drag and drop the *Breadcrumbs NavXT Widget*
+3. In the widget configuration, set:
+   * Output trail as "Plain"
+   * Check "Link the breadcrumbs"
+   * Check "Hide the trail on the front page"
+4. Save the widget
+
+### Issues Spotlight on Home Page
+
+1.	Find the Home Right Widget Area
+2   Drag and drop *Category Posts Widget*
+3.	Enter:
+   * "Issues Spotlight" as title
+   * Category = "Resources"
+   * Number of posts
+   * Sort by "Date" 
+   * Show Post Excerpt
+   * Show post thumbnail. 
+   * Thumbnail width = 128  (leave height blank)
+4. Save the widget.
+
+### "Follow Us" Social Media Icons On Home Page
+
+1. Open the *Home Slideshow Widget Area*.
+2. Drag and drop the *Text Widget*.
+3. Enter "Follow Us" as the title.
+4. Enter `<div class="content">` at the beginning of the text box.
+5. Using HTML, enter the appropriate links and icons.  Here is an example from the
+   Deploy360 site:
+        ```
+        <a href="http://www.facebook.com/Deploy360" target="_blank">
+        <img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
+        <a href="http://twitter.com/deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
+        <a href="http://www.youtube.com/user/Deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
+        <a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
+        <a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
+        ```
+6. Enter `</div>` at the end of the box.
+7. Save the widget.
+
+### Adding Additional Widgets to the Home Page
+
+Two additional boxes are available to display content on top of the images on the home
+page.  They are widget areas:
+
+* Home Slideshow Widget Area2
+* Home Slideshow Widget Area3
+
+You may add one widget (such as the *Text Widget*) to each of these areas to 
+display additional content.
+
+### "Follow Us" Social Media Icons On Secondary Pages
 
 1. Open the Secondary Widget Area.
 2. Drag and drop the *Text Widget*.
@@ -135,35 +201,15 @@ section and choose *Widgets*.
         ```
 5. Save the widget.
 
-### Navigation "Breadcrumbs"
+### Adding Items to Left Sidebar on Internal Pages
 
-1. Open the *Highlighted Widget Area*
-2. Drag and drop the *Breadcrumbs NavXT Widget*
-3. In the widget configuration, set:
-   * Output trail as "Plain"
-   * Check "Link the breadcrumbs"
-   * Check "Hide the trail on the front page"
-4. Save the widget
+1. Find the Primary Widget Area.
+2. Drag and drop Text or other widget types and make appropriate changes.
 
-### Issues Spotlight
-
-1.	Find the Home Right Widget Area
-2   Drag and drop *Category Posts Widget*
-3.	Enter:
-* "Issues Spotlight" as title
-* Category = "Resources"
-* Number of posts
-* Sort by "Date" 
-* Show Post Excerpt
-* Show post thumbnail. 
-* Thumbnail width = 128  (leave height blank)
-4. Save the widget.
-
-### Adding Items To Right Sidebar On Internal pages
+### Adding Items To Right Sidebar On Internal Pages
 
 1.	Find the Secondary Widget Area2
-2.	Drag and drop Text or other widget types.   (no title)
-3.	Save.
+2.	Drag and drop Text or other widget types and make appropriate changes.
 
 ### Footer Widget
 
@@ -202,38 +248,6 @@ Modifying Menus
 4.      Drag and drop a menu to be in the correct order.
 5.      Save.
 
-
-Adding Images To The Home Page Slideshow
-----------------------------------------
-
-1.      From the left-hand column, find the Homepage Slides section and
-        click Homepage Slides or Add New
-2.      Add title
-3.      Enter short body content
-4.      Upload a Featured Image, 976px x 338px
-5.      Enter "Additional Information", Sub-title (if applicable), Read
-        More Link (URL), Read More Text
-6.      Save or Publish Changes
-
-Controlling Boxes on top of Slideshow
--------------------------------------
-
-1.      From the left-hand column, find the Appearance section and click
-        Widgets
-2.      Find Home Slideshow Widget Area
-*      Text widget is for Social Media - Be sure to upload social icons
-        into Media Library (or theme images directory), grab the URL.
-        Replace img src location with correct image source URL; add link
-        URL to the `<a href="">` tag.
-*      Save.
-3.      Find Home Slideshow Widget Area2
-*       Add text (no title) with link to appropriate page or section on
-        web site.
-4       Find Home Slideshow Widget Area 3
-*       Add text (no title) with link to appropriate page or section on
-        web site.
-
-NOTE: Only one widget can be assigned to each widget area in this section.
 
 Adding News
 -----------
