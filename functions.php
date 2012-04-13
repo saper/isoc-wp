@@ -154,7 +154,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 }
 
 // Enables the panel for admins to change the background
-<?php add_custom_background(); ?>
+add_custom_background();
 
 include('lib/slides.php');
 include('lib/logo.php');
