@@ -23,9 +23,9 @@ are available for free.
 
 This Readme document covers the following:
 
-1. [Required plugins][]
-2. [Installation][]
-3. [Initial Configuration][]
+1. Required plugins
+2. Installation
+3. Initial Configuration
 4. Configuration
 5. Automatic Updates
 6. Using the Events Manager Plugin
@@ -173,11 +173,27 @@ Example of social media code:
 ```
 <a href="http://www.facebook.com/Deploy360" target="_blank">
 <img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
-<a href="http://twitter.com/deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
-<a href="http://www.youtube.com/user/Deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
-<a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
-<a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
+<a href="http://twitter.com/deploy360"  target="_blank">
+<img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
+<a href="http://www.youtube.com/user/Deploy360"  target="_blank">
+<img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
+<a href="https://plus.google.com/b/100600212961472655878/"  target="_blank">
+<img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
+<a href="http://www.internetsociety.org/deploy360/feed/">
+<img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
 ```
+
+### "Follow Us" Social Media Icons On Secondary Pages
+
+1. Open the Secondary Widget Area.
+2. Drag and drop the *Text Widget*.
+3. Enter "Follow Us" as the title.
+4. Using HTML, enter the appropriate links and icons. See the example above for
+   the appropriate HTML code.
+   
+   Do *not* include `<div class="content">` at the beginning or `</div>` at the end.
+
+5. Save the widget.
 
 ### Adding Additional Widgets to the Home Page
 
@@ -189,25 +205,6 @@ page.  They are widget areas:
 
 You may add one widget (such as the *Text Widget*) to each of these areas to 
 display additional content.
-
-### "Follow Us" Social Media Icons On Secondary Pages
-
-1. Open the Secondary Widget Area.
-2. Drag and drop the *Text Widget*.
-3. Enter "Follow Us" as the title.
-4. Using HTML, enter the appropriate links and icons.  Here is an example from the
-   Deploy360 site:
-        ```
-        <a href="http://www.facebook.com/Deploy360" target="_blank">
-        <img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
-        <a href="http://twitter.com/deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
-        <a href="http://www.youtube.com/user/Deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
-        <a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
-        <a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
-        ```
-    Do *not* include `<div class="content">` at the beginning or `</div>` at the end.
-
-5. Save the widget.
 
 ### Adding Items to Left Sidebar on Internal Pages
 
