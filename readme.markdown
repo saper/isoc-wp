@@ -101,9 +101,9 @@ Add Three Menus
 2.  If you do not already have the following menus, you need to click the "+" 
     tab to create menus with these exact names:
 
-* Footer Menu
-* Navigation
-* Utility Menu
+    * Footer Menu
+    * Navigation
+    * Utility Menu
 
 Add News and Resources Categories
 ---------------------------------
@@ -111,8 +111,8 @@ Add News and Resources Categories
 1. Go to Posts -> Categories
 2. Add two new categories:
 
-* News
-* Categories
+    * News
+    * Categories
 
 Create Necessary Widgets
 ------------------------
@@ -127,14 +127,14 @@ section and choose *Widgets*.
 3. Enter "Follow Us" as the title.
 4. Using HTML, enter the appropriate links and icons.  Here is an example from the
    Deploy360 site:
-```
-    <a href="http://www.facebook.com/Deploy360" target="_blank">
-    <img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
-    <a href="http://twitter.com/deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
-    <a href="http://www.youtube.com/user/Deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
-    <a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
-    <a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
-```
+        ```
+        <a href="http://www.facebook.com/Deploy360" target="_blank">
+        <img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
+        <a href="http://twitter.com/deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
+        <a href="http://www.youtube.com/user/Deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
+        <a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
+        <a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
+        ```
 5. Save the widget.
 
 ### Navigation "Breadcrumbs"
