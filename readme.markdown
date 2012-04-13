@@ -100,19 +100,17 @@ Add Three Menus
 1.  Go to Appearance -> Menus
 2.  If you do not already have the following menus, you need to click the "+" 
     tab to create menus with these exact names:
-
-    * Footer Menu
-    * Navigation
-    * Utility Menu
+   * Footer Menu
+   * Navigation
+   * Utility Menu
 
 Add News and Resources Categories
 ---------------------------------
 
 1. Go to Posts -> Categories
 2. Add two new categories:
-
-    * News
-    * Categories
+   * News
+   * Categories
 
 Create Necessary Widgets
 ------------------------
@@ -142,9 +140,9 @@ section and choose *Widgets*.
 1. Open the *Highlighted Widget Area*
 2. Drag and drop the *Breadcrumbs NavXT Widget*
 3. In the widget configuration, set:
-* Output trail as "Plain"
-* Check "Link the breadcrumbs"
-* Check "Hide the trail on the front page"
+   * Output trail as "Plain"
+   * Check "Link the breadcrumbs"
+   * Check "Hide the trail on the front page"
 4. Save the widget
 
 ### Issues Spotlight
