@@ -19,20 +19,21 @@ The issue tracker is public and *viewing* the issues is open to all. *Raising*
 an issue requires a [Github](http://www.github.com) account, but those
 are available for free.
 
-------
+------------------------------------------------------------------------
 
 This Readme document covers the following:
 
 1. Required plugins
 2. Installation
-3. Configuration
-4. Automatic Updates
-5. Using the Events Manager Plugin
-6. Using a Child Theme For Customization
-7. Support / Questions
-8. Contributors and Contributing Changes
+3. Initial Configuration
+4. Configuration
+5. Automatic Updates
+6. Using the Events Manager Plugin
+7. Using a Child Theme For Customization
+8. Support / Questions
+9. Contributors and Contributing Changes
 
-------
+------------------------------------------------------------------------
 
 Required plugins
 ================
@@ -41,7 +42,7 @@ The theme requires the following plugins to be installed and activated:
 
 * [Breadcrumbs NavXT](http://wordpress.org/extend/plugins/breadcrumb-navxt/)
 * [Category Posts Widget](http://wordpress.org/extend/plugins/category-posts/)
-* [Widget Logic](http://wordpress.org/extend/plugins/widget-logic/)
+* [Display Widgets](http://wordpress.org/extend/plugins/display-widgets/)
 
 Additionally, if you are not already using a plugin for managing events, the
 theme has been tested with this plugin:
@@ -50,7 +51,7 @@ theme has been tested with this plugin:
 
 More information about using the Events Manager is provided later in this file.
 
-------
+------------------------------------------------------------------------
 
 Installation
 ============
@@ -79,6 +80,82 @@ MultiSite) do the following:
 Next you will want to go through the steps in the next section on configuration
 to make any changes, update the home page slides, etc.
 
+------------------------------------------------------------------------
+
+Initial Configuration
+=====================
+
+Before you start using the theme, you will want to perform these steps:
+
+Set the Site Title and Tagline
+------------------------------
+
+1. Go to Settings -> General
+2. Set the Site Title and Tagline
+3. Save the settings.
+
+Add Three Menus
+---------------
+
+1.  Go to Appearance -> Menus
+2.  If you do not already have the following menus, you need to click the "+" 
+    tab to create menus with these exact names:
+
+* Footer Menu
+* Navigation
+* Utility Menu
+
+Add News and Resources Categories
+---------------------------------
+
+1. Go to Posts -> Categories
+2. Add two new categories:
+
+* News
+* Categories
+
+Create Necessary Widgets
+------------------------
+
+The theme uses a number of widgets.  To create these widgets, go to the *Appearance*
+section and choose *Widgets*.
+
+### "Follow Us" Social Media Icons
+
+1. Open the Secondary Widget Area.
+2. Drag and drop the *Text Widget*.
+3. Enter "Follow Us" as the title.
+4. Using HTML, enter the appropriate links and icons.  Here is an example from the
+   Deploy360 site:
+```html
+<a href="http://www.facebook.com/Deploy360" target="_blank">
+<img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
+<a href="http://twitter.com/deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
+<a href="http://www.youtube.com/user/Deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
+<a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
+<a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
+```
+5. Save the widget.
+
+### Navigation "Breadcrumbs"
+
+1. Open the *Highlighted Widget Area*
+2. Drag and drop the *Breadcrumbs NavXT Widget*
+3. In the widget configuration, set:
+* Output trail as "Plain"
+* Check "Link the breadcrumbs"
+* Check "Hide the trail on the front page"
+4. Save the widget
+
+### Footer Widget
+
+1. Open the *Footer Widget Area*
+2. Drag and drop the *Text Widget*
+3. Enter appropriate text (copyright, email link, address, etc.). HTML is allowed.
+4. Save the widget.
+
+------------------------------------------------------------------------
+
 Configuration
 =============
 
@@ -95,6 +172,18 @@ Changing the Logo
 3.	Save Changes
 
 NOTE: Logo should be 197px x 82px.
+
+Modifying Menus
+---------------
+
+1.      From the left-hand column, find the Appearance section and click
+        Menus
+2.      Select the appropriate menu tab to edit the menu.
+3.      On the left hand column, you will see a list of pages. Select
+        the page you wish to add to the menu.
+4.      Drag and drop a menu to be in the correct order.
+5.      Save.
+
 
 Adding Images To The Home Page Slideshow
 ----------------------------------------
@@ -114,11 +203,11 @@ Controlling Boxes on top of Slideshow
 1.      From the left-hand column, find the Appearance section and click
         Widgets
 2.      Find Home Slideshow Widget Area
-**      Text widget is for Social Media - Be sure to upload social icons
+*      Text widget is for Social Media - Be sure to upload social icons
         into Media Library (or theme images directory), grab the URL.
         Replace img src location with correct image source URL; add link
         URL to the `<a href="">` tag.
-**      Save.
+*      Save.
 3.      Find Home Slideshow Widget Area2
 *       Add text (no title) with link to appropriate page or section on
         web site.
@@ -181,19 +270,9 @@ Modify Footer Address
 3.	Edit text
 4.	Save
 
-Modifying Menus
----------------
-
-1.      From the left-hand column, find the Appearance section and click
-        Menus
-2.      Select Footer Menu, Navigation or Utility Menu across the top.
-3.      On the left hand column, you will see a list of pages. Select
-        the page you wish to add to the menu.
-4.      Drag and drop a menu to be in the correct order.
-5.      Save.
 
 
-------
+------------------------------------------------------------------------
 
 Automatic Updates
 =================
@@ -217,7 +296,7 @@ with the next automatic update.  If you wish to customize the theme beyond what
 is available in the web panels, you should consider using a "child theme" as
 noted later in the document.
 
-------
+------------------------------------------------------------------------
 
 Using The Events Manager
 ========================
@@ -231,6 +310,9 @@ tested with the Events Manager plugin available here:
 
 The second link for the main site includes documentation and tutorials that 
 go into the many capabilities offered by this plugin.
+
+Adding Events
+-------------
 
 Within the theme, adding an event involves this process:
 
@@ -246,8 +328,17 @@ Within the theme, adding an event involves this process:
 9.      Events will need to be approved before going live. To approve an
         event, click on Events, click on highlighted event and select
         "approve" or "disapprove".
+        
+Adding an Event Widget To Sidebar
+---------------------------------
 
-------
+1. Find the Appearance section and click Widgets.
+2. Open the *Home Left Widget Area*
+3. Drag and Drop the *Events Widget*
+4. Set the title, number of events to show, order, etc.
+5. Save the widget.
+
+------------------------------------------------------------------------
 
 Using A Child Theme For Customization
 =====================================
@@ -278,7 +369,7 @@ More information about using child themes can be found here:
 (**ACTION**: An example of a child theme should be provided for chapters
 to be able to simply take and use.)
 
-------
+------------------------------------------------------------------------
 
 Support
 =======
@@ -293,7 +384,7 @@ available.  The best way to raise issues is to use the issue tracker found at:
 The issues will be posted publicly and can be responded to be others working
 with the theme.
 
-------
+------------------------------------------------------------------------
 
 Contributors and Contributing Changes
 =====================================
@@ -314,7 +405,7 @@ To date, the following people or organizations have contributed to this theme:
 * Dan York (ISOC staff)
 * Marcin Cieślak (ISOC Poland chapter)
 
-------
+------------------------------------------------------------------------
 
 Thank you for using this WordPress theme - please do offer suggestions and feedback
 through the issue tracker.  Thank you.
