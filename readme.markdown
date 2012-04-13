@@ -85,7 +85,7 @@ to make any changes, update the home page slides, etc.
 Initial Configuration
 =========================
 
-Before you start using the theme, you will want to perform these steps.
+Before you start using the theme, you need to perform these steps.
 
 All of the steps assume you are logged into WordPress and have access to the 
 administration panels of your site.
@@ -106,6 +106,23 @@ Add Three Menus
    * Footer Menu
    * Navigation
    * Utility Menu
+3. You will want to add at least one item to each of the menus. If you have not
+   yet created many pages, the simplest option may be to add the Home page to
+   each menu.  To do that, for each menu:
+   * In the *Pages* box on the left check the box next to Home. Note that you
+     may need to click "View All" to see the Home page.
+   * Click "Add to Menu".  "Home" will now appear on the menu.
+   * Press the "Save Menu" button.
+   
+Associate Menus with Theme Locations
+------------------------------------
+
+1. On the Appearance -> Menus page, there is a box in the upper left labeled
+   "Theme Locations". You are going to assign your three new menus to these locations.
+2. Under "Primary Navigation", choose "Navigation".
+3. Under "Utility Navigation", choose "Utility Menu".
+4. Under "Footer Menu", choose "Footer Menu".
+5. Press Save.
 
 Add News and Resources Categories
 ---------------------------------
