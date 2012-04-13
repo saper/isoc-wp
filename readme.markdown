@@ -23,9 +23,9 @@ are available for free.
 
 This Readme document covers the following:
 
-1. [Required plugins][1]
-2. [Installation][2]
-3. [Initial Configuration][3]
+1. [Required plugins][]
+2. [Installation][]
+3. [Initial Configuration][]
 4. Configuration
 5. Automatic Updates
 6. Using the Events Manager Plugin
@@ -35,7 +35,7 @@ This Readme document covers the following:
 
 ------------------------------------------------------------------------
 
-[1] Required plugins
+Required plugins
 ====================
 
 The theme requires the following plugins to be installed and activated:
@@ -53,7 +53,7 @@ More information about using the Events Manager is provided later in this file.
 
 ------------------------------------------------------------------------
 
-[2] Installation
+Installation
 ================
 
 The initial installation of the theme involves the following steps:
@@ -82,10 +82,13 @@ to make any changes, update the home page slides, etc.
 
 ------------------------------------------------------------------------
 
-[3] Initial Configuration
+Initial Configuration
 =========================
 
-Before you start using the theme, you will want to perform these steps:
+Before you start using the theme, you will want to perform these steps.
+
+All of the steps assume you are logged into WordPress and have access to the 
+administration panels of your site.
 
 Set the Site Title and Tagline
 ------------------------------
@@ -160,18 +163,21 @@ section and choose *Widgets*.
 2. Drag and drop the *Text Widget*.
 3. Enter "Follow Us" as the title.
 4. Enter `<div class="content">` at the beginning of the text box.
-5. Using HTML, enter the appropriate links and icons.  Here is an example from the
-   Deploy360 site:
-        ```
-        <a href="http://www.facebook.com/Deploy360" target="_blank">
-        <img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
-        <a href="http://twitter.com/deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
-        <a href="http://www.youtube.com/user/Deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
-        <a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
-        <a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
-        ```
+5. Using HTML, enter the appropriate links and icons. An example from the
+   Deploy360 site is shown below.
 6. Enter `</div>` at the end of the box.
 7. Save the widget.
+
+Example of social media code:
+
+```
+<a href="http://www.facebook.com/Deploy360" target="_blank">
+<img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
+<a href="http://twitter.com/deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
+<a href="http://www.youtube.com/user/Deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
+<a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
+<a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
+```
 
 ### Adding Additional Widgets to the Home Page
 
@@ -199,6 +205,8 @@ display additional content.
         <a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
         <a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
         ```
+    Do *not* include `<div class="content">` at the beginning or `</div>` at the end.
+
 5. Save the widget.
 
 ### Adding Items to Left Sidebar on Internal Pages
@@ -223,8 +231,8 @@ display additional content.
 Configuration
 =============
 
-The next sections describe the steps to perform various configuration tasks within
-this theme.
+This section includes changes that you may want to make on an ongoing basis during
+the regular usage of your theme.
 
 All of these steps assume you are logged into WordPress and have access to the 
 administration panels of your site.
@@ -266,21 +274,6 @@ Adding Issues Spotlight
 4.	Assign it to the "Resources" category.
 5.	Add a Featured Image, if applicable.  Image should be sized to 128px x 80px
 6.	Save or Publish
-
-
-Adding Social Media to Right Sidebar on Internal pages
-------------------------------------------------------
-
-1.      From the left-hand column, find the Appearance section and click
-        Widgets
-2.      Find the Secondary Widget Area
-3.      Copy information as on the home page widget for social icon, but
-        do not include the `<div class="content">` at the beginning, nor
-        `</div>` at the end.
-4.      Save
-
-
-
 
 ------------------------------------------------------------------------
 
