@@ -127,13 +127,13 @@ section and choose *Widgets*.
 3. Enter "Follow Us" as the title.
 4. Using HTML, enter the appropriate links and icons.  Here is an example from the
    Deploy360 site:
-```html
-<a href="http://www.facebook.com/Deploy360" target="_blank">
-<img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
-<a href="http://twitter.com/deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
-<a href="http://www.youtube.com/user/Deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
-<a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
-<a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
+```
+    <a href="http://www.facebook.com/Deploy360" target="_blank">
+    <img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
+    <a href="http://twitter.com/deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
+    <a href="http://www.youtube.com/user/Deploy360"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
+    <a href="https://plus.google.com/b/100600212961472655878/"  target="_blank"><img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
+    <a href="http://www.internetsociety.org/deploy360/feed/"><img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
 ```
 5. Save the widget.
 
@@ -146,6 +146,26 @@ section and choose *Widgets*.
 * Check "Link the breadcrumbs"
 * Check "Hide the trail on the front page"
 4. Save the widget
+
+### Issues Spotlight
+
+1.	Find the Home Right Widget Area
+2   Drag and drop *Category Posts Widget*
+3.	Enter:
+* "Issues Spotlight" as title
+* Category = "Resources"
+* Number of posts
+* Sort by "Date" 
+* Show Post Excerpt
+* Show post thumbnail. 
+* Thumbnail width = 128  (leave height blank)
+4. Save the widget.
+
+### Adding Items To Right Sidebar On Internal pages
+
+1.	Find the Secondary Widget Area2
+2.	Drag and drop Text or other widget types.   (no title)
+3.	Save.
 
 ### Footer Widget
 
@@ -235,13 +255,6 @@ Adding Issues Spotlight
 5.	Add a Featured Image, if applicable.  Image should be sized to 128px x 80px
 6.	Save or Publish
 
-Changing Issues Spotlight Widget
---------------------------------
-
-1.	From the left-hand column, find the Appearance section and click Widgets
-2.	Find the Home Right Widget Area
-3.	Change title, Category, number of posts, or sort by.
-4.	Save
 
 Adding Social Media to Right Sidebar on Internal pages
 ------------------------------------------------------
@@ -254,21 +267,6 @@ Adding Social Media to Right Sidebar on Internal pages
         `</div>` at the end.
 4.      Save
 
-Adding Items Right Sidebar on Internal pages
---------------------------------------------
-
-1.	From the left-hand column, find the Appearance section and click Widgets
-2.	Find the Secondary Widget Area2
-3.	Drag and drop Text or other widget types.   (no title)
-4.	Save.
-
-Modify Footer Address
----------------------
-
-1.	From the left-hand column, find the Appearance section and click Widgets
-2.	Find the Footer Widget Area
-3.	Edit text
-4.	Save
 
 
 
