@@ -77,7 +77,7 @@ if (!is_active_sidebar('home_left')): $sidebars = str_replace('left-','',$sideba
     
 <div class="home-center center-<?php print $sidebars; ?>">
 	<h2>News</h2>
-    <?php query_posts( $query_string . 'posts_per_page=4&cat=14&order=DESC' ); ?>
+    <?php query_posts( array('category_name' => 'news', 'posts_per_page' => 4, 'order' => 'DESC') ); ?>
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
         <article id="post-<?php the_ID(); ?>" class="post post-page clearfix">
