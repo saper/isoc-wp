@@ -56,7 +56,9 @@ get_header(); ?>
     </div>
     
     <div class="widgets">
-    <?php dynamic_sidebar( 'slideshow-widget-area' ); ?>  
+    <?php dynamic_sidebar( 'slideshow-widget-area' ); ?> 
+    <?php dynamic_sidebar( 'slideshow-widget-area2' ); ?>  
+    <?php dynamic_sidebar( 'slideshow-widget-area3' ); ?> 
     </div>
 </div><!-- /end slideshow -->
 
