@@ -20,7 +20,6 @@ get_header(); ?>
 	<p>Please choose from the following options:</p>
 	<ul>
     <li>Go to our <a href="<?php bloginfo('siteurl'); ?>">Home Page</a></li>
-    <li><a href="<?php bloginfo('siteurl'); ?>/about/contact">Contact us</a></li>
     
 	</ul>
 
