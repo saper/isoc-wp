@@ -26,12 +26,23 @@ function isoc_widgets_init() {
 		'name' => __( 'Secondary Widget Area', 'twentyten' ),
 		'id' => 'secondary-widget-area',
 		'description' => __( 'The secondary widget area', 'twentyten' ),
-		'before_widget' => '<div id="%1$s"><div class="content %2$s">',
+		'before_widget' => '<div id="%1$s" class="socialmedias"><div class="content %2$s">',
 		'after_widget' => '</div></div>',
 		'before_title' => '<h2 class="widget-title">',
 		'after_title' => '</h2>',
 	) );
 
+	// Area 2, located below the Primary Widget Area in the sidebar. Empty by default.
+	register_sidebar( array(
+		'name' => __( 'Secondary Widget Area 2', 'twentyten' ),
+		'id' => 'secondary-widget-area2',
+		'description' => __( 'The secondary widget area', 'twentyten' ),
+		'before_widget' => '<div id="%1$s"><div class="content %2$s">',
+		'after_widget' => '</div></div>',
+		'before_title' => '<h2 class="widget-title">',
+		'after_title' => '</h2>',
+	) );
+	
 	// Area 3, located below the Primary Widget Area in the sidebar. Empty by default.
 	register_sidebar( array(
 		'name' => __( 'Highlighted Widget Area', 'twentyten' ),
@@ -84,7 +95,29 @@ function isoc_widgets_init() {
 		'name' => __( 'Home Slideshow Widget Area', 'twentyten' ),
 		'id' => 'slideshow-widget-area',
 		'description' => __( 'The slideshow home widget area', 'twentyten' ),
-		'before_widget' => '<div class="widget" id="widget-%1$s">',
+		'before_widget' => '<div class="widget widgettop" id="widget-%1$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h2>',
+		'after_title' => '</h2>',
+	) );
+	
+	// Homepage Slideshow Widget Area 2
+	register_sidebar( array(
+		'name' => __( 'Home Slideshow Widget Area2', 'twentyten' ),
+		'id' => 'slideshow-widget-area2',
+		'description' => __( 'The slideshow home widget area', 'twentyten' ),
+		'before_widget' => '<div class="widget widgetmiddle" id="widget-%1$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h2>',
+		'after_title' => '</h2>',
+	) );
+
+    // Homepage Slideshow Widget Area 3
+	register_sidebar( array(
+		'name' => __( 'Home Slideshow Widget Area3', 'twentyten' ),
+		'id' => 'slideshow-widget-area3',
+		'description' => __( 'The slideshow home widget area', 'twentyten' ),
+		'before_widget' => '<div class="widget widgetbottom" id="widget-%1$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h2>',
 		'after_title' => '</h2>',
