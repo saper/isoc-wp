@@ -14,6 +14,7 @@
 		if (is_active_sidebar( 'secondary-widget-area' )) : ?>
 			<aside id="aside-right">
 				<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
+				<?php dynamic_sidebar( 'secondary-widget-area2' ); ?>
 			</aside><!-- end aside-right -->
 		<?php endif;
 	endif; ?>
