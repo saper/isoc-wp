@@ -114,6 +114,9 @@ Add Three Menus
    * Click "Add to Menu".  "Home" will now appear on the menu.
    * Press the "Save Menu" button.
    
+   Alternatively you can add Categories to the menu using the Categories box
+   farther down the page.
+   
 Associate Menus with Theme Locations
 ------------------------------------
 
@@ -135,14 +138,20 @@ Add News and Resources Categories
 Adding Images To The Home Page Slideshow
 ----------------------------------------
 
-1.      From the left-hand column, find the Homepage Slides section and
-        click Homepage Slides or Add New
-2.      Add title
-3.      Enter short body content
-4.      Upload a Featured Image, 976px x 338px
-5.      Enter "Additional Information", Sub-title (if applicable), Read
-        More Link (URL), Read More Text
-6.      Save or Publish Changes
+1. From the left-hand column, find the Homepage Slides section and
+   click Homepage Slides or Add New
+2. Add title
+3. Enter short body content
+4. Upload a Featured Image (976px x 338px) using the box on the right
+   side. You need to:
+   * Click "Set Featured Image"
+   * Drag an image to the window or choose from the dialog box.
+   * Click the "Use as featured image" link at the bottom of the dialog box.
+   * Click the X in the upper right to exit the pop-up image window. You do
+     not need to insert the image into the post.
+5. Enter "Additional Information", Sub-title (if applicable), Read More 
+   Link (URL), Read More Text
+6. Save or Publish Changes
 
 Create Necessary Widgets
 ------------------------
