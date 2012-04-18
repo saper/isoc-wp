@@ -25,9 +25,9 @@ This Readme document covers the following:
 
 1. Required plugins
 2. Installation
-3. Initial Configuration
-4. Configuration
-5. Automatic Updates
+3. Automatic Updates
+4. Initial Configuration
+5. Configuration
 6. Using the Events Manager Plugin
 7. Using a Child Theme For Customization
 8. Support / Questions
@@ -65,7 +65,7 @@ The safest plan would be to remove the previous theme using that directory name.
 To begin, you need to download a ZIP file for the latest version of the theme 
 from this URL:
 
-> <https://github.com/InternetSociety/isoc-wp/tags>
+> <https://github.com/InternetSociety/isoc-wp/downloads>
 
 Next, in your WordPress admin area (or Network Admin if you are using WordPress
 MultiSite) do the following:
@@ -77,8 +77,32 @@ MultiSite) do the following:
 
 3. Activate the theme for your site.
 
-Next you will want to go through the steps in the next section on configuration
+Next you will want to go through the steps in the next sections on configuration
 to make any changes, update the home page slides, etc.
+
+------------------------------------------------------------------------
+
+Automatic Updates
+=================
+
+This theme is designed so that you will receive "automatic update" notifications
+when a new version of the theme is uploaded.  To receive these notifications, you 
+need to install the "Theme Updater" plugin from:
+
+> <http://wordpress.org/extend/plugins/theme-updater/>
+
+(Note that the plugin *does* work with WordPress 3.3.x.)
+
+You simply activate the plugin and it will periodically check for updates. You
+will then see on your Themes panel that an update is available. More
+information about this Github-based update system can be found 
+[in this blog post](http://www.disruptiveconversations.com/2012/02/how-to-auto-update-wordpress-custom-themes-using-github.html).
+
+**IMPORTANT** - Note that with automatic updates you should not directly edit
+the theme files to customize the site.  Any such direct edits will be removed
+with the next automatic update.  If you wish to customize the theme beyond what
+is available in the web panels, you should consider using a "child theme" as
+noted later in the document.
 
 ------------------------------------------------------------------------
 
@@ -297,30 +321,6 @@ Adding Issues Spotlight
 4.	Assign it to the "Resources" category.
 5.	Add a Featured Image, if applicable.  Image should be sized to 128px x 80px
 6.	Save or Publish
-
-------------------------------------------------------------------------
-
-Automatic Updates
-=================
-
-This theme is designed so that you will receive "automatic update" notifications
-when a new version of the theme is uploaded.  To receive these notifications, you 
-need to install the "Theme Updater" plugin from:
-
-> <http://wordpress.org/extend/plugins/theme-updater/>
-
-(Note that the plugin *does* work with WordPress 3.3.x.)
-
-You simply activate the plugin and it will periodically check for updates. You
-will then see on your Themes panel that an update is available. More
-information about this Github-based update system can be found 
-[in this blog post](http://www.disruptiveconversations.com/2012/02/how-to-auto-update-wordpress-custom-themes-using-github.html).
-
-**IMPORTANT** - Note that with automatic updates you should not directly edit
-the theme files to customize the site.  Any such direct edits will be removed
-with the next automatic update.  If you wish to customize the theme beyond what
-is available in the web panels, you should consider using a "child theme" as
-noted later in the document.
 
 ------------------------------------------------------------------------
 
