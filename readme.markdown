@@ -63,9 +63,14 @@ already have a theme using that same directory name, bad things will happen.
 The safest plan would be to remove the previous theme using that directory name.
 
 To begin, you need to download a ZIP file for the latest version of the theme 
-from this URL:
+from this URL under the heading "Download Packages":
 
 > <https://github.com/InternetSociety/isoc-wp/downloads>
+
+> **IMPORTANT** - Click on the *name* of the file (in the format
+"isoc-wp-*version*.zip") to download the theme. Do **not** click on the 
+"Download as zip" button near the top of the page as that will give you 
+the latest *development* version of the theme and will use a different directory name.
 
 Next, in your WordPress admin area (or Network Admin if you are using WordPress
 MultiSite) do the following:
