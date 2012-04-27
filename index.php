@@ -24,7 +24,7 @@ get_header(); ?>
    				<?php include (TEMPLATEPATH . '/meta.php' ); ?>
 
 				<?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignright post_thumbnail")); } ?>
-                   <?php the_excerpt(); ?><br style="clear:both;">
+                   <?php the_excerpt(); ?><br style="clear:both;"/>
 
 			</div>
 
