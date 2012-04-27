@@ -43,17 +43,12 @@ get_header(); ?>
         
                  <!-- Display the Post's Excerpt in a div box. -->
                  <div class="entry">
-             <?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignright post_thumbnail")); } ?>
+                 
+                   <?php include (TEMPLATEPATH . '/meta.php' ); ?>
+                   <?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignright post_thumbnail")); } ?>
                    <?php the_excerpt(); ?><br clear="all">
                           
-                <div class="postmetadata">
-                    Posted on <?php the_date('F j, Y'); ?> by <?php the_author(); ?><br>
-                    Categories: <?php the_category(', ') ?><br>
-                    <?php the_tags('Tags: ', ', ', '<br />'); ?>
-                    <!-- | 
-                    <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>-->
-                </div>
-				</div>
+				 </div>
                  </div> <!-- closes the first div box -->
                 
                  <!-- Stop The Loop (but note the "else:" - see next line). -->
@@ -62,11 +57,17 @@ get_header(); ?>
                  <!-- The very first "if" tested to see if there were any Posts to -->
                  <!-- display.  This "else" part tells what do if there weren't any. -->
                  <p>Sorry, no posts matched your criteria.</p>
-                 <div class="navigation"> <?php posts_nav_link('','','&laquo; Previous Page ') ?> | <?php posts_nav_link('',' Next Page &raquo;','') ?></div>
                  <!-- REALLY stop The Loop. -->
                  <?php endif; ?>
 
-			</div><!-- #content -->
+    <!-- Navigation for pagination -->
+    
+    <div class="navigation">
+     <div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
+     <div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
+    </div> 
+
+	</div><!-- #content -->
 
 <?php get_footer(); ?>
 

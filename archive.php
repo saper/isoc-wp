@@ -16,10 +16,7 @@ get_header(); ?>
 
 <?php get_sidebar(''); ?>
 
-
 <div id="content">
-
-
 
 		<?php if (have_posts()) : ?>
 
@@ -47,7 +44,7 @@ get_header(); ?>
 
 			<?php /* If this is an author archive */ } elseif (is_author()) { ?>
 
-				<h1 class="pagetitle">Author Archive</h1>
+				<h1 class="pagetitle">Author Archive for <?php the_author();</h1>
 
 			<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
 
@@ -65,43 +62,39 @@ get_header(); ?>
 
  <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 
- <!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
-
- <small><?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?></small>
-
  <!-- Display the Post's Content in a div box. -->
 
  <div class="entry">
 
-   <?php the_excerpt(); ?>
+   <?php include (TEMPLATEPATH . '/meta.php' ); ?>
+   <?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignright post_thumbnail")); } ?>
+   <?php the_excerpt(); ?><br clear="all">
 
  </div>
 
- <!-- Display a comma separated list of the Post's Categories. -->
-
- <p class="postmetadata">Posted in <?php the_category(', '); ?></p>
-
  </div> <!-- closes the first div box -->
-
 
  <!-- Stop The Loop (but note the "else:" - see next line). -->
 
  <?php endwhile; else: ?>
-
 
  <!-- The very first "if" tested to see if there were any Posts to -->
  <!-- display.  This "else" part tells what do if there weren't any. -->
 
  <p>Sorry, no posts matched your criteria.</p>
 
-
  <!-- REALLY stop The Loop. -->
-
-  <div class="navigation"> <?php posts_nav_link('','','&laquo; Previous Page ') ?> | <?php posts_nav_link('',' Next Page &raquo;','') ?></div>
-  
+ 
  <?php endif; ?>
+ 
+ <!-- Navigation for pagination -->
+ 
+     <div class="navigation">
+       <div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
+       <div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
+     </div> 
 
-			</div><!-- #content -->
+ </div><!-- #content -->
 
 <?php get_footer(); ?>
 
