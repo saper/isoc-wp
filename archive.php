@@ -44,7 +44,7 @@ get_header(); ?>
 
 			<?php /* If this is an author archive */ } elseif (is_author()) { ?>
 
-				<h1 class="pagetitle">Author Archive for <?php the_author();</h1>
+				<h1 class="pagetitle">Author Archive for <?php the_author(); ?></h1>
 
 			<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
 
