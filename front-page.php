@@ -43,7 +43,7 @@ get_header(); ?>
 		$loop = new WP_Query( $args );
 
 		while ( $loop->have_posts() ) : $loop->the_post();
-			print '<div id="views_slideshow_pager_field_item_bottom_home_page_slideshow-block_0" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views_slideshow_active_pager_field_item views-row-odd">
+			print '<div class="views-slideshow-pager-field-item views_slideshow_pager_field_item views_slideshow_active_pager_field_item views-row-odd">
             	<div class="views-field-field-thumbnailpageriamge">
                 	<div class="views-content-field-thumbnailpageriamge">';
 			print get_the_post_thumbnail( $slide['id'], array(52,55) );
