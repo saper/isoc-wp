@@ -2,9 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
 <head>
   <title><?php
-  
 
-  
   /*
    * Internet Society WordPress Template 
    *
@@ -40,6 +38,9 @@
 
 	?></title>
 
+    <!-- HTML5 form of the declaration of the character set encoding -->
+    <meta charset="UTF-8">
+    
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/css/html-reset.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/handheld.css" media="handheld"/>
