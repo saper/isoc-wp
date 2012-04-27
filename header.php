@@ -60,7 +60,7 @@
 
   <?php get_search_form(); ?>
 
-  <h1><a href="/" title="Internet Society - Go to Home Page"><?php theme_logo(); ?></a></h1>
+  <h1><a href="<?php home_url('/'); ?>" title="Go to Home Page"><?php theme_logo(); ?></a></h1>
 
   <div class="clear"></div>
 
