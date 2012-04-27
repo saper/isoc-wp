@@ -327,6 +327,34 @@ Adding Issues Spotlight
 5.	Add a Featured Image, if applicable.  Image should be sized to 128px x 80px
 6.	Save or Publish
 
+Adding A Featured Image To A Post
+---------------------------------
+
+If you add a "featured image" to a post, a thumbnail of that image will then appear next
+to the text when the post is included in a list of posts, such as an archives, category
+or author view.
+
+1. Edit the post to which you want to add a featured image.
+2. Near the bottom of the right sidebar find the "Featured Image" box and click the 
+   "*Set featured image*" link.  If you do not see the "Featured Image" box, see the 
+   note below.
+3. Choose the image you want to use, either by uploading a new image, choosing an existing
+   image from the Media Gallery or by supplying the URL to an image.
+4. When you get into the image properties screen you should see a link at the bottom that
+   says "*Use as featured image*". Click that link.
+   ![Featured Image](images/readme-featuredimage.png)
+5. Close out of the window by clicking the X in the top right corner. You do **NOT** need 
+   to choose "*Insert into Post*" as that will insert the image into the actual text of
+   your post.
+6. Click the "*Update*" button to update the post with the added featured image.
+
+**NOTE**: If you do not see a "Featured Image" box in the right sidebar it is most likely 
+because WordPress is not set to show that box.  Go to the top right corner of the WordPress
+window and click on "Screen Options" near your name:
+![Screen Options](images/readme-screenoptions.png)
+In the panel that opens up, check the box next to "Featured Image" to display that box
+in the sidebar. When you are done you can click "Screen Options" again to hide this panel.
+
 ------------------------------------------------------------------------
 
 Using The Events Manager
