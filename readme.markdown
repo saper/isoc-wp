@@ -198,6 +198,15 @@ section and choose *Widgets*.
    * Check "Hide the trail on the front page"
 4. Save the widget
 
+**NOTE**: If you are using this theme on an installation of WordPress Multisite, 
+you may need to go into the Breadcrumbs NavXT panel under "Settings" in your 
+WordPress Dashboard and *un-check* the box next to *"Main Site Breadcrumb"*:
+
+![Screen Options](isoc-wp/raw/master/images/readme-breadcrumb-navxt-settings.jpg)
+
+If you do not do this, you may wind up with multiple instances of "Home" in the
+breadcrumb trail on your site.
+
 ### Issues Spotlight on Home Page
 
 1.	Find the Home Right Widget Area
