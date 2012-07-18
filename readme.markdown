@@ -90,13 +90,15 @@ to make any changes, update the home page slides, etc.
 Automatic Updates
 =================
 
+**NOTE**:  Unfortunately this "Theme Updater" plugin does not work with 
+WordPress 3.4.  Therefore please ignore this section right now.  This 
+section will be updated as soon as the Theme Updater plugin works again.
+
 This theme is designed so that you will receive "automatic update" notifications
 when a new version of the theme is uploaded.  To receive these notifications, you 
 need to install the "Theme Updater" plugin from:
 
 > <http://wordpress.org/extend/plugins/theme-updater/>
-
-(Note that the plugin *does* work with WordPress 3.3.x.)
 
 You simply activate the plugin and it will periodically check for updates. You
 will then see on your Themes panel that an update is available. More
@@ -452,6 +454,37 @@ More information about using child themes can be found here:
 
 (**ACTION**: An example of a child theme should be provided for chapters
 to be able to simply take and use.)
+
+------------------------------------------------------------------------
+
+Updating The Theme
+==================
+
+From time to time there will be new versions of this theme released as 
+various issues and enhancements are addressed.
+
+Ideally, the "Theme Updater" plugin mentioned at the beginning of the document
+will allow you to "automatically update" the theme and make this a simple
+process.
+
+However, should that plugin be broken (as it currently is with WordPress 3.4) or
+for some reason not work on your site, the update process is a bit more involved:
+
+1. Download the latest ZIP file of the theme from the Downloads page:
+
+https://github.com/InternetSociety/isoc-wp/downloads
+
+**IMPORTANT**: Download the ZIP file from the bottom of the page under "Download
+Packages" and **NOT** by using the "Download as zip" or "Download as tar.gz" buttons.
+The download package uses the directory name of "isoc-wp" while those two buttons create
+a different directory name.
+
+2. In the WordPress Themes panel, _delete_ the current ISOC theme.  (Note: If you are
+using WordPress Multisite, you will need to go into Network Admin -> Themes and then
+"Network Disable" the theme before deleting it.)
+
+3. Use "Themes -> Add New" and then upload the latest ZIP file.  (Note: If you are using
+WordPress Multisite you will then need to do "Network Enable".)
 
 ------------------------------------------------------------------------
 
