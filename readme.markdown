@@ -217,8 +217,8 @@ breadcrumb trail on your site.
 
 ### Issues Spotlight on Home Page
 
-1.	Find the Home Right Widget Area
-2   Drag and drop *Category Posts Widget*
+1.	Find the *Home Right Widget Area*
+2.  Drag and drop *Category Posts Widget*
 3.	Enter:
    * "Issues Spotlight" as title
    * Category = "Resources"
