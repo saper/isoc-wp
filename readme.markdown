@@ -91,7 +91,7 @@ Automatic Updates
 =================
 
 **NOTE**:  Unfortunately this "Theme Updater" plugin does not work with 
-WordPress 3.4.  Therefore please ignore this section right now.  This 
+WordPress 3.4.  Therefore **please ignore this section right now**.  This 
 section will be updated as soon as the Theme Updater plugin works again.
 
 This theme is designed so that you will receive "automatic update" notifications
