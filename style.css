@@ -1197,8 +1197,6 @@ hr {
 #copy .terms-inline{border-top:1px dotted #ccc; padding-top:6px; font-weight:bold;}
 #copy .vcard{ font-style:italic; margin:0 0 15px 0 }
 
-/* View specific
---------------------------------------------- */
 /* Footer
 --------------------------------------------- */
 #footer {
@@ -1266,4 +1264,11 @@ padding: 0 0 8px 8px;
 .alignleft {
 float: left;
 padding: 0 8px 8px 0;
+}
+
+/* Remove WordPress note about HTML allowed for comments
+as it is not really necessary and makes for a longer page.
+--------------------------------------------- */
+.form-allowed-tags{
+display:none;
 }
