@@ -162,7 +162,13 @@ Add News and Resources Categories
 1. Go to Posts -> Categories
 2. Add two new categories:
    * News
-   * Categories
+   * Resources
+3. Add a new post (Posts -> Add New) with the category "News".  The text and title can 
+be whatever you want - this is just a sample post so that you can see the template
+working and it can be deleted later.  This new post should be visible on your home page.
+4. Add a new Post (Posts -> Add New) with the category "Resources". The text and title
+can again be whatever you want - and can be deleted later. You need this post so that
+you can configure the Issues Spotlight widget later in the process.
    
 Adding Images To The Home Page Slideshow
 ----------------------------------------
@@ -220,6 +226,12 @@ breadcrumb trail on your site.
    * Show post thumbnail. 
    * Thumbnail width = 128  (leave height blank)
 4. Save the widget.
+
+**NOTE**: If you did not take a moment to create a post with the category of "Resources"
+earlier in the process, you will _not_ have the ability to choose "Resources" in the
+list of categories.  The widget shows only categories for which there currently are 
+existing posts.  You will need to go create a post with a category of "Resources" now 
+in order to finish the installation of this widget.
 
 ### "Follow Us" Social Media Icons On Home Page
 
