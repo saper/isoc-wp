@@ -71,7 +71,6 @@ if (!is_active_sidebar('home_left')): $sidebars = str_replace('left-','',$sideba
 <?php if (is_active_sidebar('home_left')): ?>
 <div class="home-left left-<?php print $sidebars; ?>">  
 	<?php dynamic_sidebar( 'home_left' ); ?>
-    <div class="view-footer"><p><a href="/events" title="View More Events">More Events &gt;</a></p></div>
 </div>
 <?php endif; ?>
     
