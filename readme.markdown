@@ -326,10 +326,8 @@ overridden by the theme - but you do need to have a page set here.
 
 ![Blog Page Configuration](isoc-wp/raw/master/images/readme-blogpage.png)
 
-5. Save the changes.
-
-At this point all of your posts will be visible at "< yoursite >/blog", assuming you used
-"Blog" as your page name.
+After you save the changes, all of your posts will be visible at "< yoursite >/blog", 
+assuming you used "Blog" as your page name.
 
 Now you can go into Appearance -> Menus and add the Blog page to, for instance, your
 Navigation menu so that it will appear on that main menu.
