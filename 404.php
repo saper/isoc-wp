@@ -13,14 +13,14 @@ get_header(); ?>
 <div id="content">
     	
 
-		<h1>Page Cannot Be Found (Error 404)</h1>
+		<h1>Page Cannot Be Found</h1>
 
     <p>We're sorry, but that page is not available.
 		
 	<p>Please choose from the following options:</p>
 	<ul>
     <li>Go to our <a href="<?php bloginfo('siteurl'); ?>">Home Page</a></li>
-    
+    <li>Use the search box in the upper right to search our site.</li>
 	</ul>
 
 		</div> <!-- end content -->
