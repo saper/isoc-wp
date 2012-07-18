@@ -352,6 +352,9 @@ Changing the Logo
 
 NOTE: Logo should be 197px x 82px.
 
+Official ISOC chapter logos can be found at: http://www.internetsociety.org/chapter-logos
+If you are seeking a logo that is not listed please contact chapter-support@isoc.org
+
 Modifying Menus
 ---------------
 
