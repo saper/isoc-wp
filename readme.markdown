@@ -301,6 +301,40 @@ display additional content.
 3. Enter appropriate text (copyright, email link, address, etc.). HTML is allowed.
 4. Save the widget.
 
+Adding a "Blog" Section
+-----------------------
+
+If you would like to add a "blog" section to your site that lists all your posts, you
+can follow these steps.  Note that this is _not_ required and can also be done at
+any later time.  As noted in the steps, it does not have to be called "Blog" but could
+use another name instead.
+
+1. Create a new Page ( Pages -> Add New ) that will be used for displaying all your
+posts.  It only has to have a name and URL as WordPress will supply the content:
+
+![Blog Page Name](isoc-wp/raw/master/images/readme-blogpagename.png)
+
+It is common to use "Blog" here with a URL of "blog", but you could use another name
+if you want to.  Publish this page so that it is available.
+
+2. Go to Settings -> Reading.
+3. For "_Front page displays_" choose "A static page".
+4. Change "_Posts page_" to be the name of the page you just created.  
+5. Change "_Front page_" to be the name of one of your other pages - or a specific
+blank page you create for this purpose.  The content doesn't matter as it will be 
+overridden by the theme - but you do need to have a page set here.
+
+![Blog Page Configuration](isoc-wp/raw/master/images/readme-blogpage.png)
+
+5. Save the changes.
+
+At this point all of your posts will be visible at "< yoursite >/blog", assuming you used
+"Blog" as your page name.
+
+Now you can go into Appearance -> Menus and add the Blog page to, for instance, your
+Navigation menu so that it will appear on that main menu.
+
+
 ------------------------------------------------------------------------
 
 Configuration
