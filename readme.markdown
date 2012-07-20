@@ -184,8 +184,9 @@ Adding Images To The Home Page Slideshow
    * Click "Set Featured Image"
    * Drag an image to the window or choose from the dialog box.
    * Click the "Use as featured image" link at the bottom of the dialog box.
-   * Click the X in the upper right to exit the pop-up image window. You do
-     not need to insert the image into the post.
+   * Click the X in the upper right to exit the pop-up image window. 
+   * **NOTE:**  DO **NOT** INSERT THE IMAGE INTO THE POST! Doing so will cause the
+   image to appear as part of the front page text and _not_ as a background image.
 5. Enter "Additional Information", Sub-title (if applicable), Read More 
    Link (URL), Read More Text
 6. Save or Publish Changes
