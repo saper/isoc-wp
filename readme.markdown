@@ -19,6 +19,14 @@ The issue tracker is public and *viewing* the issues is open to all. *Raising*
 an issue requires a [Github](http://www.github.com) account, but those
 are available for free.
 
+If you would like to see the theme in action, the following sites use it:
+
+* http://danyork.me/isoc-chapter/  (Sample site used in theme development)
+* http://www.isoc.org.bd/dhaka/    (ISOC Chapter in Dhaka, Bangladesh)
+
+If you use the theme and would like to have your site listed as an example,
+please email york@isoc.org.
+
 ------------------------------------------------------------------------
 
 This Readme document covers the following:
