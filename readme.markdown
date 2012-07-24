@@ -90,10 +90,6 @@ to make any changes, update the home page slides, etc.
 Automatic Updates
 =================
 
-**NOTE**:  Unfortunately this "Theme Updater" plugin does not work with 
-WordPress 3.4.  Therefore **please ignore this section right now**.  This 
-section will be updated as soon as the Theme Updater plugin works again.
-
 This theme is designed so that you will receive "automatic update" notifications
 when a new version of the theme is uploaded.  To receive these notifications, you 
 need to install the "Theme Updater" plugin from:
