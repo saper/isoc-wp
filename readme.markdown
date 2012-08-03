@@ -265,6 +265,20 @@ Example of social media code:
 <a href="http://www.internetsociety.org/deploy360/feed/">
 <img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
 ```
+The theme has enough space for **five** social media icons.  All the icons are located in
+the ```images``` folder inside the theme. Available icons include:
+
+Blue monochrome set:
+* ![Facebook](isoc-wp/raw/master/images/icon_facebook_blue.png)```images/icon_facebook_blue.png```
+* ![Flickr v1](isoc-wp/raw/master/images/icon_flickr_v1_blue.png)```images/icon_flickr_v1_blue.png```
+* ![Flickr v2](isoc-wp/raw/master/images/icon_flickr_v2_blue.png)```images/icon_flickr_v2_blue.png```
+* ![Google+](isoc-wp/raw/master/images/icon_googleplus_blue.png)```images/icon_googleplus_blue.png```
+* ![LinkedIn](isoc-wp/raw/master/images/icon_linkedin_blue.png)```images/icon_linkedin_blue.png```
+* ![RSS](isoc-wp/raw/master/images/icon_rss_blue.png)```images/icon_rss_blue.png```
+* ![ScoopIt](isoc-wp/raw/master/images/icon_scoopit_blue.png)```images/icon_scoopit_blue.png```
+* ![StumbleUpon](isoc-wp/raw/master/images/icon_stumbleupon_blue.png)```images/icon_stumbleupon_blue.png```
+* ![Twitter](isoc-wp/raw/master/images/icon_twitter_blue.png)```images/icon_twitter_blue.png```
+* ![YouTube](isoc-wp/raw/master/images/icon_youtube_blue.png)```images/icon_youtube_blue.png```
 
 ### "Follow Us" Social Media Icons On Secondary Pages
 
