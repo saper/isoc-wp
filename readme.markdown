@@ -266,7 +266,10 @@ Example of social media code:
 <img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
 ```
 The theme has enough space for **five** social media icons.  All the icons are located in
-the ```images``` folder inside the theme. Available icons include:
+the ```images``` folder inside the theme. The available icons are listed below.  Note that 
+when referencing an icon in a widget or page you may need to use the ''full'' URL of:
+
+```/wp-content/themes/isoc-wp/images/''imagename''```
 
 Blue monochrome set:
 * ![Facebook](isoc-wp/raw/master/images/icon_facebook_blue.png)```images/icon_facebook_blue.png```
@@ -279,6 +282,19 @@ Blue monochrome set:
 * ![StumbleUpon](isoc-wp/raw/master/images/icon_stumbleupon_blue.png)```images/icon_stumbleupon_blue.png```
 * ![Twitter](isoc-wp/raw/master/images/icon_twitter_blue.png)```images/icon_twitter_blue.png```
 * ![YouTube](isoc-wp/raw/master/images/icon_youtube_blue.png)```images/icon_youtube_blue.png```
+
+Multi-color set set:
+* ![Delicious](isoc-wp/raw/master/images/icon_delicious_lg.png)```images/icon_delicious_lg.png```
+* ![Facebook](isoc-wp/raw/master/images/icon_facebook_lg.png)```images/icon_facebook_lg.png```
+* ![Flickr](isoc-wp/raw/master/images/icon_flickr_lg.png)```images/icon_flickr_lg.png```
+* ![Google+](isoc-wp/raw/master/images/icon_googleplus.png)```images/icon_googleplus.png```
+* ![LinkedIn](isoc-wp/raw/master/images/icon_linkedin_lg.png)```images/icon_linkedin_lg.png```
+* ![Reddit](isoc-wp/raw/master/images/icon_reddit_lg.png)```images/icon_reddit_lg.png```
+* ![RSS](isoc-wp/raw/master/images/icon_rss_lg.png)```images/icon_rss_lg.png```
+* ![SlideShare](isoc-wp/raw/master/images/icon_slideshare_lg.png)```images/icon_slideshare_lg.png```
+* ![StumbleUpon](isoc-wp/raw/master/images/icon_stumbleupon_lg.png)```images/icon_stumbleupon_lg.png```
+* ![Twitter](isoc-wp/raw/master/images/icon_twitter_lg.png)```images/icon_twitter_lg.png```
+* ![YouTube](isoc-wp/raw/master/images/icon_youtube_lg.png)```images/icon_youtube_lg.png```
 
 ### "Follow Us" Social Media Icons On Secondary Pages
 
