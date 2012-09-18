@@ -267,9 +267,9 @@ Example of social media code:
 ```
 The theme has enough space for **five** social media icons.  All the icons are located in
 the ```images``` folder inside the theme. The available icons are listed below.  Note that 
-when referencing an icon in a widget or page you may need to use the ''full'' URL of:
+when referencing an icon in a widget or page you may need to use the full URL of:
 
-```/wp-content/themes/isoc-wp/images/imagename```
+    /wp-content/themes/isoc-wp/images/imagename
 
 Blue monochrome set:
 * ![Facebook](isoc-wp/raw/master/images/icon_facebook_blue.png)```images/icon_facebook_blue.png```
