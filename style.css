@@ -4,7 +4,7 @@ Description: WordPress Theme patterned after redesigned www.internetsociety.org
 Author: Internet Society
 Author URI: http://www.internetsociety.org/
 Github Theme URI: https://github.com/InternetSociety/isoc-wp
-Version: v1.0.11
+Version: v1.0.12
 */
 
 body { 
@@ -1272,3 +1272,4 @@ as it is not really necessary and makes for a longer page.
 .form-allowed-tags{
 display:none;
 }
+
