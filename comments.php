@@ -15,7 +15,7 @@
 
 <div id="comments">
 <?php if ( post_password_required() ) : ?>
-				<p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.'); ?></p>
+				<p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.','isoc-wp'); ?></p>
 			</div><!-- #comments -->
 <?php
 		/* Stop the rest of comments.php from being processed,
@@ -62,7 +62,7 @@
 
 	if ( ! comments_open() ) :
 ?>
-	<p class="nocomments"><?php _e( 'Comments are closed.'); ?></p>
+	<p class="nocomments"><?php _e( 'Comments are closed.','isoc-wp'); ?></p>
 <?php endif; // end ! comments_open() ?>
 
 <?php endif; // end have_comments() ?>

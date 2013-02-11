@@ -5,8 +5,8 @@ function create_my_post_types() {
 	register_post_type( 'homepage_slide',
 		array(
 			'labels' => array(
-				'name' => __( 'Homepage Slides' ),
-				'singular_name' => __( 'Homepage Slide' )
+				'name' => __( 'Homepage Slides','isoc-wp' ),
+				'singular_name' => __( 'Homepage Slide','isoc-wp' )
 			),
 			'public' => true,
 			'show_ui' => true,

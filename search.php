@@ -18,7 +18,7 @@ get_header(); ?>
 
             <div class="content clearfix">
 
-   				<?php include (TEMPLATEPATH . '/meta.php' ); ?>
+   				<?php get_template_part( 'meta' ); ?>
 
 				<?php the_excerpt(''); ?>
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <head>
   <title><?php
 
@@ -34,7 +34,7 @@
 
 	if ( $paged >= 2 || $page >= 2 )
 
-		echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
+		echo ' | ' . sprintf( __( 'Page %s', 'isoc-wp' ), max( $paged, $page ) );
 
 	?></title>
 

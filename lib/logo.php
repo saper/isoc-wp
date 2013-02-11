@@ -42,7 +42,7 @@ function theme_logo(){
 }
 
 function menu_item(){
-	add_submenu_page("themes.php", "Theme Logo", "Theme Logo", 8, "theme-logo", "menu_page");
+	add_theme_page("themes.php", "Theme Logo", "Theme Logo", 8, "theme-logo", "menu_page");
 }
 
 function menu_page(){
@@ -80,7 +80,7 @@ function menu_page(){
 				</tr>
 			</table>
 			<p class="submit">
-            	<input type="submit" name="Submit" value="<?php _e('Save Changes') ?>" />
+            	<input type="submit" name="Submit" value="<?php _e('Save Changes','isoc-wp') ?>" />
        		</p>
 		</form>
 		
