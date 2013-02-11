@@ -156,7 +156,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 add_theme_support( 'automatic-feed-links' );
 
 // Enables the panel for admins to change the background
-add_theme_support( 'custom-background' )
+add_theme_support( 'custom-background' );
 
 // Sets the maximum width of the content column for items like embedded media.
 // 450 px is a good value for a 3 column layout.
