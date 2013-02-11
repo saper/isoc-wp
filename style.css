@@ -4,7 +4,7 @@ Description: WordPress Theme patterned after redesigned www.internetsociety.org
 Author: Internet Society
 Author URI: http://www.internetsociety.org/
 Github Theme URI: https://github.com/InternetSociety/isoc-wp
-Version: v1.0.12
+Version: v1.1.0
 */
 
 body { 
@@ -181,7 +181,7 @@ text-align:left;
 	z-index:99995;
 	text-decoration: none;
 	margin:0 0 0 0;
-	padding: 7px 34px 5px;
+	padding: 7px 20px 5px;
 	line-height:1.083em;
 	white-space:nowrap;
 	height:20px;
