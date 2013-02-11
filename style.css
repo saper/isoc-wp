@@ -173,7 +173,7 @@ text-align:left;
 	display: inline-block;
 	float:left;
 }
-#nav .menu li.first { background:url(images/bkg_dots_vert.png) left no-repeat; }
+#nav .menu li.first-menu-item { background:url(images/bkg_dots_vert.png) left no-repeat; }
 #nav .menu a {
 	display: block;
 	color: #5d5d5d;
