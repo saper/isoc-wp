@@ -43,11 +43,14 @@
     
 	<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/css/html-reset.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/handheld.css" media="handheld"/>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/handheld.css" media="handheld"/>
 
 	<!--[if IE]>
-    <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/ie.css" media="screen"/>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/ie.css" media="screen"/>
     <![endif]-->
+    
+    // Add JavaScript for threaded replies to single pages
+    <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 	<?php wp_head(); ?>
 
