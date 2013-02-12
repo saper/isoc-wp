@@ -40,7 +40,7 @@ get_header(); ?>
 
 			<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
 
-				<h1 class="pagetitle">Archive for <?php the_time('Y'); ?></h1>
+				<h1 class="pagetitle">Archive for <?php the_time(get_option('date_format')); ?></h1>
 
 			<?php /* If this is an author archive */ } elseif (is_author()) { ?>
 

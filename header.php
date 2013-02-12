@@ -49,8 +49,9 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/ie.css" media="screen"/>
     <![endif]-->
     
+    <?php
     // Add JavaScript for threaded replies to single pages
-    <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
+    if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 	<?php wp_head(); ?>
 
