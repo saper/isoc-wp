@@ -30,9 +30,9 @@
 
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/cycle.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/util.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'template_directory' ); ?>/js/dropdown.js"></script>	
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/cycle.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/util.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/dropdown.js"></script>	
 <!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <?php
 	/* Always have wp_footer() just before the closing </body>

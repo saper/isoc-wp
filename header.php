@@ -41,7 +41,7 @@
     <!-- HTML5 form of the declaration of the character set encoding -->
     <meta charset="UTF-8">
     
-	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/css/html-reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/css/html-reset.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/css/handheld.css" media="handheld"/>
 
@@ -61,7 +61,7 @@
 
   <?php get_search_form(); ?>
 
-  <h1><a href="<?php bloginfo('url'); ?>" title="Go to Home Page"><?php theme_logo(); ?></a></h1>
+  <h1><a href="<?php echo home_url(); ?>" title="Go to Home Page"><?php theme_logo(); ?></a></h1>
 
   <div class="clear"></div>
 

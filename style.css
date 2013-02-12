@@ -5,6 +5,7 @@ Author: Internet Society
 Author URI: http://www.internetsociety.org/
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: three-column, two-columns, right-sidebar, flexible-width, custom-background, custom-menu, editor-style, featured-images, post-formats,theme-options
 Text Domain: isoc-wp
 Github Theme URI: https://github.com/InternetSociety/isoc-wp
 Version: v1.1.0
@@ -1229,7 +1230,8 @@ hr {
 	background: url(images/contact_icon.gif) no-repeat;
 	padding: 0 0 0 17px;
 }
-
+/* Miscellaneous 
+--------------------------------------------- */
 .clear{ clear:both;  }
 .post-page, .entry {
 border-bottom:1px dotted #ccc;
@@ -1263,12 +1265,36 @@ padding-bottom: 10px;
 float:right;
 padding: 0 0 8px 8px;
 }
-
 .alignleft {
 float: left;
 padding: 0 8px 8px 0;
 }
-
+.aligncenter,
+img.aligncenter {
+        clear: both;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+/* Caption support - included in case anyone uses them,
+but may need further testing. Copied from TwentyTen theme.
+--------------------------------------------- */
+.wp-caption {
+        background: #f1f1f1;
+        line-height: 18px;
+        margin-bottom: 20px;
+        max-width: 450px !important; /* prevent too-wide images from breaking layout */
+        padding: 4px;
+        text-align: center;
+}
+.wp-caption img {
+        margin: 5px 5px 0;
+}
+.wp-caption p.wp-caption-text {
+        color: #888;
+        font-size: 12px;
+        margin: 5px;
+}
 /* Remove WordPress note about HTML allowed for comments
 as it is not really necessary and makes for a longer page.
 --------------------------------------------- */

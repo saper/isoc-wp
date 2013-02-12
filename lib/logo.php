@@ -19,7 +19,7 @@ function logo_uploader() {
 function my_admin_scripts() {
 	wp_enqueue_script('media-upload');
 	wp_enqueue_script('thickbox');
-	wp_register_script('my-upload', get_bloginfo('template_directory').'/lib/logo.js', array('jquery','media-upload','thickbox'));
+	wp_register_script('my-upload', get_template_directory_uri().'/lib/logo.js', array('jquery','media-upload','thickbox'));
 	wp_enqueue_script('my-upload');
 }
 
@@ -36,7 +36,7 @@ if (isset($_GET['page']) && $_GET['page'] == 'theme-logo') {
 function theme_logo(){
 	$logo = get_option("tl_logo_src");
 	if (!$logo) {
-		$logo = get_bloginfo('template_url') . "/images/logo.png";
+		$logo = get_template_directory_uri() . "/images/logo.png";
 	}
 	echo '<img src="'. $logo .'" alt="'.get_option("blogname").'" />';
 }
