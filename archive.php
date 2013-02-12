@@ -32,11 +32,11 @@ get_header(); ?>
 
 			<?php /* If this is a daily archive */ } elseif (is_day()) { ?>
 
-				<h1>Archive for <?php the_time('F jS, Y'); ?></h1>
+				<h1>Archive for <?php the_time(get_option('date_format')); ?></h1>
 
 			<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
 
-				<h1>Archive for <?php the_time('F, Y'); ?></h1>
+				<h1>Archive for <?php the_time(get_option('date_format')); ?></h1>
 
 			<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
 

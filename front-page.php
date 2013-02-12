@@ -81,7 +81,7 @@ if (!is_active_sidebar('home_left')): $sidebars = str_replace('left-','',$sideba
     <?php while (have_posts()) : the_post(); ?>
         <article id="post-<?php the_ID(); ?>" class="post post-page clearfix">
         	<div class="views-field views-field-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div> 
-            <?php the_time('j F Y') ?>
+            <?php the_time(get_option('date_format')) ?>
   		</article>
 	<?php endwhile; ?>
     <?php endif; ?>
