@@ -13,7 +13,7 @@ function create_my_post_types() {
 			'publicly_queryable' => true,
 			'exclude_from_search' => true,
 			'has_archive' => true,
-			'supports' => array( 'title', 'editor','thumbnail'),
+			'supports' => array( 'title', 'editor','thumbnail','custom-fields','revisions'),
 			'register_meta_box_cb' => 'add_events_metaboxes',
 			'query_var' => 'homepage_slide'
 		)
