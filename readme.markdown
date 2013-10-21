@@ -434,15 +434,7 @@ or author view.
    note below.
 3. Choose the image you want to use, either by uploading a new image, choosing an existing
    image from the Media Gallery or by supplying the URL to an image.
-4. When you get into the image properties screen you should see a link at the bottom that
-   says "*Use as featured image*". Click that link.
-   
-   ![Featured Image](https://raw.github.com/InternetSociety/isoc-wp/master/images/readme-featuredimage.png)
-   
-5. Close out of the window by clicking the X in the top right corner. You do **NOT** need 
-   to choose "*Insert into Post*" as that will insert the image into the actual text of
-   your post.
-6. Click the "*Update*" button to update the post with the added featured image.
+4. Click the "*Update*" button to update the post with the added featured image.
 
 **NOTE**: If you do not see a "Featured Image" box in the right sidebar it is most likely 
 because WordPress is not set to show that box.  Go to the top right corner of the WordPress
