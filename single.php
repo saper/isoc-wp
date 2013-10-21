@@ -10,6 +10,13 @@
     
  
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+		
+		<div class="navigation"><table width="100%"><tr>
+                  <td><div class="navleft"><?php previous_post_link('&laquo; %link'); ?></div></td>
+		  <td><div class="navright"><?php next_post_link('%link &raquo;'); ?></div></td>
+                  </tr></table>
+		  <hr/>
+	   </div>
 			
 		<div class="post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
@@ -29,12 +36,7 @@
 		</div>
 
 		<?php comments_template(); ?>
-		
-		<div class="navigation"> <?php previous_post_link('&laquo; %link'); ?>  <br>
-<?php next_post_link('%link &raquo;'); ?></div>
 
 		<?php endwhile; endif; ?>
     
-		
-		
 <?php get_footer(); ?>

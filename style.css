@@ -249,6 +249,28 @@ text-align:left;
 #nav .menu li:hover ul, #nav .menu li.hover ul  {	left: auto; }
 #nav .menu li:hover {}
 
+/* Navigation in Posts
+--------------------------------------------- */
+
+/* Reduce text size/spacing in blog navigation
+--------------------------------------------- */
+.navigation {
+    font-size: smaller;
+    line-height: 1em;
+}
+.navigation .navleft {
+    padding-left: 10px;
+    text-indent: -10px;
+}
+.navigation .navright {
+    text-align: right;
+}
+/* Modify spacing around a HR in the blog navigation
+--------------------------------------------- */
+.navigation hr {
+    margin: 5px 5px 30px 5px;
+}
+
 /* Column Containers
 --------------------------------------------- */
 #columns {
