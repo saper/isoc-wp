@@ -68,9 +68,9 @@ function isoc_widgets_init() {
 	
 	// Homepage Left Widget Area
 	register_sidebar( array(
-		'name' => __( 'Home Left', 'isoc-wp' ),
+		'name' => __( 'Home Left Widget Area', 'isoc-wp' ),
 		'id' => 'home_left',
-		'description' => __( 'The left home content area', 'isoc-wp' ),
+		'description' => __( 'The left home widget area. Leave this empty for a 2-col layout.', 'isoc-wp' ),
 		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h2>',
