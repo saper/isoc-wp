@@ -216,7 +216,7 @@ section and choose *Widgets*.
 you may need to go into the Breadcrumbs NavXT panel under "Settings" in your 
 WordPress Dashboard and *un-check* the box next to *"Main Site Breadcrumb"*:
 
-![Screen Options](isoc-wp/raw/master/images/readme-breadcrumb-navxt-settings.jpg)
+![Screen Options](https://raw.github.com/InternetSociety/isoc-wp/master/images/readme-breadcrumb-navxt-settings.jpg)
 
 If you do not do this, you may wind up with multiple instances of "Home" in the
 breadcrumb trail on your site.
@@ -274,28 +274,28 @@ when referencing an icon in a widget or page you may need to use the _full_ URL 
 
 Blue monochrome set:
 * ![Facebook](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_facebook_blue.png)```images/icon_facebook_blue.png```
-* ![Flickr v1](isoc-wp/raw/master/images/icon_flickr_v1_blue.png)```images/icon_flickr_v1_blue.png```
-* ![Flickr v2](isoc-wp/raw/master/images/icon_flickr_v2_blue.png)```images/icon_flickr_v2_blue.png```
-* ![Google+](isoc-wp/raw/master/images/icon_googleplus_blue.png)```images/icon_googleplus_blue.png```
-* ![LinkedIn](isoc-wp/raw/master/images/icon_linkedin_blue.png)```images/icon_linkedin_blue.png```
-* ![RSS](isoc-wp/raw/master/images/icon_rss_blue.png)```images/icon_rss_blue.png```
-* ![ScoopIt](isoc-wp/raw/master/images/icon_scoopit_blue.png)```images/icon_scoopit_blue.png```
-* ![StumbleUpon](isoc-wp/raw/master/images/icon_stumbleupon_blue.png)```images/icon_stumbleupon_blue.png```
-* ![Twitter](isoc-wp/raw/master/images/icon_twitter_blue.png)```images/icon_twitter_blue.png```
-* ![YouTube](isoc-wp/raw/master/images/icon_youtube_blue.png)```images/icon_youtube_blue.png```
+* ![Flickr v1](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_flickr_v1_blue.png)```images/icon_flickr_v1_blue.png```
+* ![Flickr v2](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_flickr_v2_blue.png)```images/icon_flickr_v2_blue.png```
+* ![Google+](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_googleplus_blue.png)```images/icon_googleplus_blue.png```
+* ![LinkedIn](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_linkedin_blue.png)```images/icon_linkedin_blue.png```
+* ![RSS](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_rss_blue.png)```images/icon_rss_blue.png```
+* ![ScoopIt](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_scoopit_blue.png)```images/icon_scoopit_blue.png```
+* ![StumbleUpon](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_stumbleupon_blue.png)```images/icon_stumbleupon_blue.png```
+* ![Twitter](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_twitter_blue.png)```images/icon_twitter_blue.png```
+* ![YouTube](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_youtube_blue.png)```images/icon_youtube_blue.png```
 
 Multi-color set set:
-* ![Delicious](isoc-wp/raw/master/images/icon_delicious_lg.png)```images/icon_delicious_lg.png```
-* ![Facebook](isoc-wp/raw/master/images/icon_facebook_lg.png)```images/icon_facebook_lg.png```
-* ![Flickr](isoc-wp/raw/master/images/icon_flickr_lg.png)```images/icon_flickr_lg.png```
-* ![Google+](isoc-wp/raw/master/images/icon_googleplus.png)```images/icon_googleplus.png```
-* ![LinkedIn](isoc-wp/raw/master/images/icon_linkedin_lg.png)```images/icon_linkedin_lg.png```
-* ![Reddit](isoc-wp/raw/master/images/icon_reddit_lg.png)```images/icon_reddit_lg.png```
-* ![RSS](isoc-wp/raw/master/images/icon_rss_lg.png)```images/icon_rss_lg.png```
-* ![SlideShare](isoc-wp/raw/master/images/icon_slideshare_lg.png)```images/icon_slideshare_lg.png```
-* ![StumbleUpon](isoc-wp/raw/master/images/icon_stumbleupon_lg.png)```images/icon_stumbleupon_lg.png```
-* ![Twitter](isoc-wp/raw/master/images/icon_twitter_lg.png)```images/icon_twitter_lg.png```
-* ![YouTube](isoc-wp/raw/master/images/icon_youtube_lg.png)```images/icon_youtube_lg.png```
+* ![Delicious](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_delicious_lg.png)```images/icon_delicious_lg.png```
+* ![Facebook](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_facebook_lg.png)```images/icon_facebook_lg.png```
+* ![Flickr](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_flickr_lg.png)```images/icon_flickr_lg.png```
+* ![Google+](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_googleplus.png)```images/icon_googleplus.png```
+* ![LinkedIn](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_linkedin_lg.png)```images/icon_linkedin_lg.png```
+* ![Reddit](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_reddit_lg.png)```images/icon_reddit_lg.png```
+* ![RSS](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_rss_lg.png)```images/icon_rss_lg.png```
+* ![SlideShare](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_slideshare_lg.png)```images/icon_slideshare_lg.png```
+* ![StumbleUpon](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_stumbleupon_lg.png)```images/icon_stumbleupon_lg.png```
+* ![Twitter](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_twitter_lg.png)```images/icon_twitter_lg.png```
+* ![YouTube](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_youtube_lg.png)```images/icon_youtube_lg.png```
 
 ### "Follow Us" Social Media Icons On Secondary Pages
 
@@ -348,7 +348,7 @@ use another name instead.
 1. Create a new Page ( Pages -> Add New ) that will be used for displaying all your
 posts.  It only has to have a name and URL as WordPress will supply the content:
 
-![Blog Page Name](isoc-wp/raw/master/images/readme-blogpagename.png)
+![Blog Page Name](https://raw.github.com/InternetSociety/isoc-wp/master/images/readme-blogpagename.png)
 
 It is common to use "Blog" here with a URL of "blog", but you could use another name
 if you want to.  Publish this page so that it is available.
@@ -360,7 +360,7 @@ if you want to.  Publish this page so that it is available.
 blank page you create for this purpose.  The content doesn't matter as it will be 
 overridden by the theme - but you do need to have a page set here.
 
-![Blog Page Configuration](isoc-wp/raw/master/images/readme-blogpage.png)
+![Blog Page Configuration](https://raw.github.com/InternetSociety/isoc-wp/master/images/readme-blogpage.png)
 
 After you save the changes, all of your posts will be visible at "< yoursite >/blog", 
 assuming you used "Blog" as your page name.
@@ -437,7 +437,7 @@ or author view.
 4. When you get into the image properties screen you should see a link at the bottom that
    says "*Use as featured image*". Click that link.
    
-   ![Featured Image](isoc-wp/raw/master/images/readme-featuredimage.png)
+   ![Featured Image](https://raw.github.com/InternetSociety/isoc-wp/master/images/readme-featuredimage.png)
    
 5. Close out of the window by clicking the X in the top right corner. You do **NOT** need 
    to choose "*Insert into Post*" as that will insert the image into the actual text of
@@ -448,7 +448,7 @@ or author view.
 because WordPress is not set to show that box.  Go to the top right corner of the WordPress
 window and click on "Screen Options" near your name:
 
-![Screen Options](isoc-wp/raw/master/images/readme-screenoptions.png)
+![Screen Options](https://raw.github.com/InternetSociety/isoc-wp/master/images/readme-screenoptions.png)
 
 In the panel that opens up, check the box next to "Featured Image" to display that box
 in the sidebar. When you are done you can click "Screen Options" again to hide this panel.
