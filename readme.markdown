@@ -252,19 +252,19 @@ in order to finish the installation of this widget.
 6. Enter `</div>` at the end of the box.
 7. Save the widget.
 
-Example of social media code:
+Example of social media code using the blue monochrome set:
 
 ```
 <a href="http://www.facebook.com/Deploy360" target="_blank">
-<img src="/wp-content/themes/isoc-wp/images/icon_facebook_lg.png" width="28" height="29" alt="facebook"></a> 
+<img src="/wp-content/themes/isoc-wp/images/icon_facebook_blue.png" width="28" height="29" alt="facebook"></a> 
 <a href="http://twitter.com/deploy360"  target="_blank">
-<img src="/wp-content/themes/isoc-wp/images/icon_twitter_lg.png" width="30" height="29" alt="twitter"></a> 
+<img src="/wp-content/themes/isoc-wp/images/icon_twitter_blue.png" width="30" height="29" alt="twitter"></a> 
 <a href="http://www.youtube.com/user/Deploy360"  target="_blank">
-<img src="/wp-content/themes/isoc-wp/images/icon_youtube_lg.png" width="29" height="29" alt="youtube"></a>
+<img src="/wp-content/themes/isoc-wp/images/icon_youtube_blue.png" width="29" height="29" alt="youtube"></a>
 <a href="https://plus.google.com/b/100600212961472655878/"  target="_blank">
-<img src="/wp-content/themes/isoc-wp/images/icon_googleplus.gif" width="29" height="29" alt="Google+"></a>
+<img src="/wp-content/themes/isoc-wp/images/icon_googleplus_blue.png" width="29" height="29" alt="Google+"></a>
 <a href="http://www.internetsociety.org/deploy360/feed/">
-<img src="/wp-content/themes/isoc-wp/images/icon_rss_lg.png" width="28" height="28" alt="RSS icon"></a>
+<img src="/wp-content/themes/isoc-wp/images/icon_rss_blue.png" width="28" height="28" alt="RSS icon"></a>
 ```
 The theme has enough space for **five** social media icons.  All the icons are located in
 the ```images``` folder inside the theme. The available icons are listed below.  Note that 
