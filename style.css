@@ -954,6 +954,46 @@ font-weight:normal;
 	float:right;
 	margin:0;
 }
+
+/* Adds shadow to images in entries and pages
+--------------------------------------------- */
+#copy img {
+    border: 1px solid #999;
+    -moz-box-shadow: 5px 5px 5px #333;
+    -webkit-box-shadow: 5px 5px 5px #333;
+    box-shadow: 5px 5px 5px #333;
+    margin: 5px;
+    background-color: #ffffff;
+}
+/* Removes shadows from smiley emoticons
+--------------------------------------------- */
+#copy img.wp-smiley {
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0px;
+}
+
+/* Style for a disclaimer paragraph
+--------------------------------------------- */
+.note-disclaimer p {
+    background:#eee;
+    padding:5px 5px 5px 15px; 
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    -moz-border-radius:10px; 
+    -webkit-border-radius:10px; 
+    -moz-box-shadow: 5px 5px 4px #000; 
+    -webkit-box-shadow: 5px 5px 4px #000; 
+    box-shadow: 5px 5px 4px #000;
+}
+/* Modify spacing around a HR around a disclaimer
+--------------------------------------------- */
+.note-disclaimer hr {
+    margin: 5px 5px 5px 5px;
+}
+
 	
 /* breadcrumbs  */
 .widget_breadcrumb_navxt {
