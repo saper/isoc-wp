@@ -192,6 +192,18 @@ Create Necessary Widgets
 The theme is designed to use a number of widgets.  To create these widgets, go to 
 the *Appearance* section and choose *Widgets*.
 
+**NOTE**: There are now three main areas where you can add content to the front page:
+
+* Home Left Widget Area
+* Home Center Widget Area
+* Home Right Widget Area
+
+This will give you a three-column layout with smaller columns on the left and right. 
+*IF YOU WANT A 2-COLUMN LAYOUT*, simply do _not_ add anything into the "Home Left Widget
+Area".  If there is nothing there the "Home Center Widget Area" will expand to fill both
+columns.
+
+You can add whatever widgets you want to any of the three widget areas.
 
 ### "Follow Us" Social Media Icons On Home Page
 
