@@ -18,6 +18,9 @@ get_header(); ?>
 			</div>
   		</article>
 	<?php endwhile; ?>
+	
+	<?php get_template_part( 'meta' ); ?>
+	
 	<?php comments_template(); ?>
 		
     <?php endif; ?>
