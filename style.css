@@ -260,10 +260,12 @@ text-align:left;
 }
 .navigation .navleft {
     padding-left: 10px;
+    padding-right: 10px;
     text-indent: -10px;
 }
 .navigation .navright {
     text-align: right;
+    padding-left: 10px;
 }
 /* Modify spacing around a HR in the blog navigation
 --------------------------------------------- */
