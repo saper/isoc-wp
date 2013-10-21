@@ -78,6 +78,16 @@ function tl_menu_page(){
 						<?php theme_logo(); ?>
 					</td>
 				</tr>
+				<tr>
+					<td scope="row" valign="top">
+						Logo URL (destination if a visitor clicks on the logo)
+					</td>
+					<td>
+						<input type="text" value="<?php echo get_option("tl_logo_url"); ?>" name="tl_logo_url" id="tl_logo_url" />
+					</td>
+					<td>
+					</td>
+				</tr>
 			</table>
 			<p class="submit">
             	<input type="submit" name="Submit" value="<?php _e('Save Changes','isoc-wp') ?>" />
@@ -91,15 +101,18 @@ function tl_menu_page(){
 function tl_init(){
 	if(function_exists(register_setting)){
 		register_setting("tl-options", "tl_logo_src");
+		register_setting("tl-options", "tl_logo_url");
 	}
 }
 
 function tl_activate(){
 	add_option("tl_logo_src", "default");
+	add_option("tl_logo_url", "/");
 }
 
 function tl_deactivate(){
 	delete_option("tl_logo_src");
+	delete_option("tl_logo_url");
 }
 
 if(is_admin()){
