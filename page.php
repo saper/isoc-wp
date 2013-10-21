@@ -20,6 +20,7 @@ get_header(); ?>
 	<?php endwhile; ?>
 	
 	<?php get_template_part( 'meta' ); ?>
+	<hr>
 	
 	<?php comments_template(); ?>
 		

@@ -24,6 +24,7 @@
 			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 			
 			<?php get_template_part( 'meta' ); ?>
+			<hr>
 
 		</div>
 
