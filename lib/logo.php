@@ -70,7 +70,7 @@ function menu_page(){
 					<td>
 						<input type="text" value="<?php echo get_option("tl_logo_src"); ?>" name="tl_logo_src" id="tl_logo_src" />
                         <input id="upload_image_button" type="button" value="Upload Image" />
-						<p>Ex.: http://domain.com/images/logo.png</p>
+						<p>Ex.: http://example.com/images/logo.png</p>
 						<p>Image should be 197px X 82px.</p>
 					</td>
 					<td>
