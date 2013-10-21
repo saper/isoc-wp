@@ -74,20 +74,13 @@ if (!is_active_sidebar('home_left')): $sidebars = str_replace('left-','',$sideba
 </div>
 <?php endif; ?>
     
-<div class="home-center center-<?php print $sidebars; ?>">
-	<h2>News</h2>
-    <?php query_posts( array('category_name' => 'news', 'posts_per_page' => 4, 'order' => 'DESC') ); ?>
-    <?php if (have_posts()) : ?>
-    <?php while (have_posts()) : the_post(); ?>
-        <article id="post-<?php the_ID(); ?>" class="post post-page clearfix">
-        	<div class="views-field views-field-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div> 
-            <?php the_time(get_option('date_format')) ?>
-  		</article>
-	<?php endwhile; ?>
-    <?php endif; ?>
-    <?php wp_reset_query(); ?>
-    <div class="view-footer"><a href="/news">More News &gt;</a></div>
-</div>
+<?php
+    // Center Home Widget Area
+    if ( is_active_sidebar( 'home_center-widget-area' ) ) : ?>
+        <div class="home-center center-<?php print $sidebars; ?>">
+            <?php dynamic_sidebar( 'home_center-widget-area' ); ?>
+        </div><!-- #home-right .widget-area -->
+<?php endif; ?>
 
 <?php
     // Right Home Widget Area
