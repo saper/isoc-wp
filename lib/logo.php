@@ -42,7 +42,7 @@ function theme_logo(){
 }
 
 function menu_item(){
-	add_theme_page("Theme Logo", "Theme Logo", "read", "theme-logo", "tl_menu_page");
+	add_theme_page('Theme Logo', 'Theme Logo', 'update_themes', 'theme-logo', 'tl_menu_page');
 }
 
 function tl_menu_page(){
