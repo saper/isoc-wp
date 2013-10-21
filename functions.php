@@ -78,15 +78,15 @@ function isoc_widgets_init() {
 	) );
 
 	// Homepage Center Widget Area
-+  register_sidebar( array(
-+    'name' => __( 'Home Center Widget Area', 'isoc-wp' ),
-+    'id' => 'home_center-widget-area',
-+    'description' => __( 'The center home widget area', 'isoc-wp' ),
-+    'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
-+    'after_widget' => '</div>',
-+    'before_title' => '<h2>',
-+    'after_title' => '</h2>',
-+  ) );
+   register_sidebar( array(
+     'name' => __( 'Home Center Widget Area', 'isoc-wp' ),
+     'id' => 'home_center-widget-area',
+     'description' => __( 'The center home widget area', 'isoc-wp' ),
+     'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+     'after_widget' => '</div>',
+     'before_title' => '<h2>',
+     'after_title' => '</h2>',
+    ) );
 
 	// Homepage Right Widget Area
 	register_sidebar( array(
