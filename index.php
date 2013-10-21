@@ -21,10 +21,10 @@ get_header(); ?>
 
             <div class="content clearfix">
 
-   				<?php get_template_part( 'meta' ); ?>
-
 				<?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(200,160), array("class" => "alignright post_thumbnail")); } ?>
                    <?php the_excerpt(); ?><br style="clear:both;"/>
+
+                <?php get_template_part( 'meta' ); ?>
 
 			</div>
 
