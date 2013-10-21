@@ -163,19 +163,6 @@ Associate Menus with Theme Locations
 4. Under "Footer Menu", choose "Footer Menu".
 5. Press Save.
 
-Add News and Resources Categories
----------------------------------
-
-1. Go to Posts -> Categories
-2. Add two new categories:
-   * News
-   * Resources
-3. Add a new post (Posts -> Add New) with the category "News".  The text and title can 
-be whatever you want - this is just a sample post so that you can see the template
-working and it can be deleted later.  This new post should be visible on your home page.
-4. Add a new Post (Posts -> Add New) with the category "Resources". The text and title
-can again be whatever you want - and can be deleted later. You need this post so that
-you can configure the Issues Spotlight widget later in the process.
    
 Adding Images To The Home Page Slideshow
 ----------------------------------------
@@ -218,25 +205,6 @@ WordPress Dashboard and *un-check* the box next to *"Main Site Breadcrumb"*:
 If you do not do this, you may wind up with multiple instances of "Home" in the
 breadcrumb trail on your site.
 
-### Issues Spotlight on Home Page
-
-1.	Find the *Home Right Widget Area*
-2.  Drag and drop *Category Posts Widget*
-3.	Enter:
-   * "Issues Spotlight" as title
-   * Category = "Resources"
-   * Number of posts
-   * Sort by "Date" 
-   * Show Post Excerpt
-   * Show post thumbnail. 
-   * Thumbnail width = 128  (leave height blank)
-4. Save the widget.
-
-**NOTE**: If you did not take a moment to create a post with the category of "Resources"
-earlier in the process, you will _not_ have the ability to choose "Resources" in the
-list of categories.  The widget shows only categories for which there currently are 
-existing posts.  You will need to go create a post with a category of "Resources" now 
-in order to finish the installation of this widget.
 
 ### "Follow Us" Social Media Icons On Home Page
 
@@ -400,24 +368,6 @@ Modifying Menus
 5.      Save.
 
 
-Adding News
------------
-
-1.	From the left-hand column, find the Posts section and click Edit or Add New
-2.	Create or edit a post
-3.	Assign it to the "News" category.
-4.	Save or Publish
-
-Adding Issues Spotlight
------------------------
-
-1.	From the left-hand column, find the Posts section and click Edit or Add New
-2.	Create or edit a post
-3.	Add an Excerpt, which is visible on the home page.
-4.	Assign it to the "Resources" category.
-5.	Add a Featured Image, if applicable.  Image should be sized to 128px x 80px
-6.	Save or Publish
-
 Adding A Featured Image To A Post
 ---------------------------------
 
@@ -442,6 +392,79 @@ window and click on "Screen Options" near your name:
 
 In the panel that opens up, check the box next to "Featured Image" to display that box
 in the sidebar. When you are done you can click "Screen Options" again to hide this panel.
+
+------------------------------------------------------------------------
+
+Example: Creating Additional Categories and Widgets
+===================================================
+
+You are free to create whatever widgets and categories you wish, but if you would like an
+example, here is how you can create a "News" widget and an "Issues Spotlight" widget and
+update those widgets accordingly.
+
+Add News and Resources Categories
+---------------------------------
+
+1. Go to Posts -> Categories
+2. Add two new categories:
+   * News
+   * Resources
+3. Add a new post (Posts -> Add New) with the category "News".  The text and title can 
+be whatever you want - this is just a sample post so that you can see the template
+working when you add a "News" widget. This post can be deleted later.  
+4. Add a new Post (Posts -> Add New) with the category "Resources". The text and title
+can again be whatever you want - and can be deleted later. You need this post so that
+you can configure the Issues Spotlight widget later in the process.
+   
+   
+Adding "News" To Home Page
+--------------------------
+
+1.  Go to *Appearance -> Widgets*
+2.	Find the *Home Left Widget Area* or *Home Center Widget Area*
+3.  Drag and drop *Category Posts Widget*
+4.	Enter:
+   * "Issues Spotlight" as title
+   * Category = "News"
+   * Number of posts
+   * Sort by "Date" 
+   * Show Post Excerpt
+   * Show post thumbnail. 
+5. Save the widget.
+
+Adding "Issues Spotlight" To Home Page
+--------------------------------------
+
+1.  Go to *Appearance -> Widgets*
+2.	Find the *Home Right Widget Area* or *Home Center Widget Area*
+3.  Drag and drop *Category Posts Widget*
+4.	Enter:
+   * "Issues Spotlight" as title
+   * Category = "Resources"
+   * Number of posts
+   * Sort by "Date" 
+   * Show Post Excerpt
+   * Show post thumbnail. 
+   * If using the Home Right Widget Area, set the Thumbnail width = 128  (leave height blank)
+5. Save the widget.
+   
+Adding News
+-----------
+
+1.	From the left-hand column, find the Posts section and click Edit or Add New
+2.	Create or edit a post
+3.	Assign it to the "News" category.
+4.	Save or Publish
+
+Adding Issues Spotlight
+-----------------------
+
+1.	From the left-hand column, find the Posts section and click Edit or Add New
+2.	Create or edit a post
+3.	Add an Excerpt, which is visible on the home page.
+4.	Assign it to the "Resources" category.
+5.	Add a Featured Image, if applicable.  Image should be sized to 128px x 80px
+6.	Save or Publish
 
 ------------------------------------------------------------------------
 
@@ -579,9 +602,11 @@ either:
 
 To date, the following people or organizations have contributed to this theme:
 
-* Balance Interactive
 * Dan York (ISOC staff)
 * Marcin Cieślak (ISOC Poland chapter)
+
+The original implementation of the theme was performed for the Internet Society by 
+Balance Interactive.
 
 ------------------------------------------------------------------------
 
@@ -591,4 +616,4 @@ through the issue tracker.  Thank you.
 This theme is licensed for usage under the terms of the GPL v2.0. See the file
 "license.txt" for more information.
 
-Copyright 2012 Internet Society
+Copyright 2012-2013 Internet Society
