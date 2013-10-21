@@ -38,8 +38,8 @@ get_header(); ?>
 
         <?php
 		
-		// Slideshow thumbnails
-		$args = array( 'post_type' => 'homepage_slide' );
+		// Slideshow thumbnails - display in order slides were created.
+		$args = array( 'post_type' => 'homepage_slide' , 'order' => 'ASC' );
 		$loop = new WP_Query( $args );
 
 		while ( $loop->have_posts() ) : $loop->the_post();
