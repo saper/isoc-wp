@@ -19,9 +19,7 @@ get_header(); ?>
   		</article>
 	<?php endwhile; ?>
 	<?php comments_template(); ?>
-	
-	<div class="navigation"> <?php posts_nav_link('','','&laquo; Previous Page ') ?> | <?php posts_nav_link('',' Next Page &raquo;','') ?></div>
-	
+		
     <?php endif; ?>
 
 <?php get_footer(); ?>
