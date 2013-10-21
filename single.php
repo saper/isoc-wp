@@ -14,8 +14,8 @@
 		<div class="navigation">
 		  <table width="100%">
 		    <tr>
-             <td><div class="navleft"><?php previous_post_link('&laquo; %link'); ?></div></td>
-		     <td><div class="navright"><?php next_post_link('%link &raquo;'); ?></div></td>
+             <td width="50%"><div class="navleft"><?php previous_post_link('&laquo; %link'); ?></div></td>
+		     <td width="50%"><div class="navright"><?php next_post_link('%link &raquo;'); ?></div></td>
             </tr>
           </table>
 		  <hr/>
