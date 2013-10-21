@@ -47,18 +47,24 @@ This Readme document covers the following:
 Required plugins
 ====================
 
-The theme requires the following plugins to be installed and activated:
+The instructions for this theme assume that the following plugin is installed and activated:
 
-* [Breadcrumbs NavXT](http://wordpress.org/extend/plugins/breadcrumb-navxt/)
 * [Category Posts Widget](http://wordpress.org/extend/plugins/category-posts/)
-* [Display Widgets](http://wordpress.org/extend/plugins/display-widgets/)
+
+It is not a hard requirement for use of the theme, but allows for the creation of various 
+widgets relating to categories.
 
 Additionally, if you are not already using a plugin for managing events, the
 theme has been tested with this plugin:
 
 * [Events Manager](http://wordpress.org/extend/plugins/events-manager/)
 
-More information about using the Events Manager is provided later in this file.
+Similarly, if you would like to have "breadcrumbs" at the top of your pages that 
+allow for navigation within your site, this theme has been tested with:
+
+* [Breadcrumbs NavXT](http://wordpress.org/extend/plugins/breadcrumb-navxt/)
+
+More information about using the Events Manager and Breadcrumbs NavXT is provided later in this file.
 
 ------------------------------------------------------------------------
 
@@ -183,27 +189,8 @@ Adding Images To The Home Page Slideshow
 Create Necessary Widgets
 ------------------------
 
-The theme uses a number of widgets.  To create these widgets, go to the *Appearance*
-section and choose *Widgets*.
-
-### Navigation "Breadcrumbs"
-
-1. Open the *Highlighted Widget Area*
-2. Drag and drop the *Breadcrumbs NavXT Widget*
-3. In the widget configuration, set:
-   * Output trail as "Plain"
-   * Check "Link the breadcrumbs"
-   * Check "Hide the trail on the front page"
-4. Save the widget
-
-**NOTE**: If you are using this theme on an installation of WordPress Multisite, 
-you may need to go into the Breadcrumbs NavXT panel under "Settings" in your 
-WordPress Dashboard and *un-check* the box next to *"Main Site Breadcrumb"*:
-
-![Screen Options](https://raw.github.com/InternetSociety/isoc-wp/master/images/readme-breadcrumb-navxt-settings.jpg)
-
-If you do not do this, you may wind up with multiple instances of "Home" in the
-breadcrumb trail on your site.
+The theme is designed to use a number of widgets.  To create these widgets, go to 
+the *Appearance* section and choose *Widgets*.
 
 
 ### "Follow Us" Social Media Icons On Home Page
@@ -332,7 +319,6 @@ assuming you used "Blog" as your page name.
 
 Now you can go into Appearance -> Menus and add the Blog page to, for instance, your
 Navigation menu so that it will appear on that main menu.
-
 
 ------------------------------------------------------------------------
 
@@ -465,6 +451,35 @@ Adding Issues Spotlight
 4.	Assign it to the "Resources" category.
 5.	Add a Featured Image, if applicable.  Image should be sized to 128px x 80px
 6.	Save or Publish
+
+------------------------------------------------------------------------
+
+Using Breadcrumbs NavXT
+========================
+
+There is a special widget area where you can install a "breadcrumbs" widget that will 
+provide additional navigation options to your visitors.  This theme has been tested with:
+
+* [Breadcrumbs NavXT](http://wordpress.org/extend/plugins/breadcrumb-navxt/)
+
+Here are the steps you need to follow:
+
+1. Open the *Highlighted Widget Area*
+2. Drag and drop the *Breadcrumbs NavXT Widget*
+3. In the widget configuration, set:
+   * Output trail as "Plain"
+   * Check "Link the breadcrumbs"
+   * Check "Hide the trail on the front page"
+4. Save the widget
+
+**NOTE**: If you are using this theme on an installation of WordPress Multisite, 
+you may need to go into the Breadcrumbs NavXT panel under "Settings" in your 
+WordPress Dashboard and *un-check* the box next to *"Main Site Breadcrumb"*:
+
+![Screen Options](https://raw.github.com/InternetSociety/isoc-wp/master/images/readme-breadcrumb-navxt-settings.jpg)
+
+If you do not do this, you may wind up with multiple instances of "Home" in the
+breadcrumb trail on your site.
 
 ------------------------------------------------------------------------
 
