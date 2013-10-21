@@ -273,7 +273,7 @@ when referencing an icon in a widget or page you may need to use the _full_ URL 
     /wp-content/themes/isoc-wp/images/_imagename_
 
 Blue monochrome set:
-* ![Facebook](isoc-wp/raw/master/images/icon_facebook_blue.png)```images/icon_facebook_blue.png```
+* ![Facebook](https://raw.github.com/InternetSociety/isoc-wp/master/images/icon_facebook_blue.png)```images/icon_facebook_blue.png```
 * ![Flickr v1](isoc-wp/raw/master/images/icon_flickr_v1_blue.png)```images/icon_flickr_v1_blue.png```
 * ![Flickr v2](isoc-wp/raw/master/images/icon_flickr_v2_blue.png)```images/icon_flickr_v2_blue.png```
 * ![Google+](isoc-wp/raw/master/images/icon_googleplus_blue.png)```images/icon_googleplus_blue.png```
