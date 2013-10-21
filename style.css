@@ -8,7 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: three-columns, two-columns, right-sidebar, flexible-width, custom-background, custom-menu, editor-style, featured-images, post-formats,theme-options
 Text Domain: isoc-wp
 Github Theme URI: https://github.com/InternetSociety/isoc-wp
-Version: v1.1.0
+Version: v1.2.0
 */
 
 body { 
@@ -809,7 +809,7 @@ line-height: 1.5em;
 	float:right;
 	width:237px;
 	font-size:.9em;
-	line-height:1.4em;
+	line-height:1.0em;
 	margin:0;
 }
 #aside-right > div {
@@ -820,7 +820,6 @@ line-height: 1.5em;
 	font-size: 1.25em;
 	color: white;
 	line-height: 1.7em;
-	font-weight: bold;
 }
 
 #aside-right .socialmedias {
