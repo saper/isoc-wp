@@ -33,7 +33,7 @@ if (isset($_GET['page']) && $_GET['page'] == 'theme-logo') {
 }
 
 
-function theme_logo(){
+function theme-logo(){
 	$logo = get_option("tl_logo_src");
 	if (!$logo) {
 		$logo = get_template_directory_uri() . "/images/logo.png";
@@ -42,7 +42,7 @@ function theme_logo(){
 }
 
 function menu_item(){
-	add_theme_page("Theme Logo", "Theme Logo", "read", "theme-logo", "theme-logo-menu");
+	add_theme_page("Theme Logo", "Theme Logo", "read", "theme-logo", "theme-logo-page");
 }
 
 function theme-logo-page(){
