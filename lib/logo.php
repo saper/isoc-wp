@@ -42,10 +42,10 @@ function theme_logo(){
 }
 
 function menu_item(){
-	add_theme_page("themes.php", "Theme Logo", "Theme Logo", 8, "theme-logo", "menu_page");
+	add_theme_page("Theme Logo", "Theme Logo", "read", "theme-logo", "theme-logo-menu");
 }
 
-function menu_page(){
+function theme-logo-page(){
 	?>
 	<div id="theme-logo" class="wrap">
 		<h2>Theme Logo</h2>
