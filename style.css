@@ -479,14 +479,7 @@ color:#fff;
 .center-center-right { width: 559px; }
 .home-center.center-left-center{width:554px; margin-right: 0px;}
 .home-center .views-field-title {font-weight:bold; padding-bottom:4px; line-height:1.3em;}
-.home-center .photo, .home-right img.wp-post-image, .home-center img.wp-post-image {
-	float:left;	
-	margin:0 18px 5px 0;
-}
-.home-left img.wp-post-image {
-	float: right;
-	margin: 0px 0px 5px 18px;
-}
+
 .home-center li p {
 	line-height: 150%;
 }
