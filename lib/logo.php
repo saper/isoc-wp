@@ -80,12 +80,13 @@ function tl_menu_page(){
 				</tr>
 				<tr>
 					<td scope="row" valign="top">
-						Logo URL (destination if a visitor clicks on the logo)
+						Logo Link (destination if a visitor clicks on the logo)
 					</td>
 					<td>
-						<input type="text" value="<?php echo get_option("tl_logo_url"); ?>" name="tl_logo_url" id="tl_logo_url" />
+						<input type="text" value="<?php echo get_option("tl_logo_link"); ?>" name="tl_logo_link" id="tl_logo_link" />
 					</td>
 					<td>
+					    Current value:  <?php echo get_option("tl_logo_link"); ?>
 					</td>
 				</tr>
 			</table>
@@ -101,18 +102,18 @@ function tl_menu_page(){
 function tl_init(){
 	if(function_exists(register_setting)){
 		register_setting("tl-options", "tl_logo_src");
-		register_setting("tl-options", "tl_logo_url");
+		register_setting("tl-options", "tl_logo_link");
 	}
 }
 
 function tl_activate(){
 	add_option("tl_logo_src", "default");
-	add_option("tl_logo_url", "/");
+	add_option("tl_logo_link", "/");
 }
 
 function tl_deactivate(){
 	delete_option("tl_logo_src");
-	delete_option("tl_logo_url");
+	delete_option("tl_logo_link");
 }
 
 if(is_admin()){
