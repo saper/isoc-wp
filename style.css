@@ -25,9 +25,9 @@ a {
 a:hover, a:focus {	text-decoration:underline;}
 
 blockquote{
-    background:url(images/blockquote.png) 2px 6px no-repeat #ebebeb; 
-    padding:10px 7px 0 42px;	
-    margin:0 0 10px 0;
+    background: #ebebeb;
+    padding:10px 7px 0 20px;	
+    margin:5px;
 }
 
 /* Header
