@@ -12,7 +12,7 @@ get_header(); ?>
 	<div class="cycle">
     <?php
 		// Pull up slideshow
-		$args = array( 'post_type' => 'homepage_slide' );
+		$args = array( 'post_type' => 'homepage_slide', 'order' => 'ASC' );
 		$loop = new WP_Query( $args );
 
 		while ( $loop->have_posts() ) : $loop->the_post();
@@ -68,10 +68,13 @@ if (!is_active_sidebar('home_right-widget-area')): $sidebars = str_replace('-rig
 if (!is_active_sidebar('home_left')): $sidebars = str_replace('left-','',$sidebars); endif;
 
 ?>
-<?php if (is_active_sidebar('home_left')): ?>
-<div class="home-left left-<?php print $sidebars; ?>">  
-	<?php dynamic_sidebar( 'home_left' ); ?>
-</div>
+<?php 
+    // Left Home Widget Area
+    if (is_active_sidebar('home_left')): ?>
+   
+       <div class="home-left left-<?php print $sidebars; ?>">  
+	        <?php dynamic_sidebar( 'home_left' ); ?>
+       </div>
 <?php endif; ?>
     
 <?php
