@@ -6,7 +6,12 @@ function create_my_post_types() {
 		array(
 			'labels' => array(
 				'name' => __( 'Homepage Slides','isoc-wp' ),
-				'singular_name' => __( 'Homepage Slide','isoc-wp' )
+				'singular_name' => __( 'Homepage Slide','isoc-wp' ),
+				'add_new_item' => __( 'Add New Homepage Slide','isoc-wp'),
+				'edit_item' => __( 'Edit Homepage Slide','isoc-wp'),
+				'view_item' => __( 'View Homepage Slide','isoc-wp'),
+				'search_items' => __( 'Search Homepage Slides','isoc-wp'),
+				'not_found' => __( 'No Homepage Slides found','isoc-wp')
 			),
 			'public' => true,
 			'show_ui' => true,
