@@ -65,7 +65,7 @@
 
   <?php get_search_form(); ?>
 
-  <h1><a href="<?php echo get_option("tl_logo_url"); ?>" title=""><?php theme_logo(); ?></a></h1>
+  <h1><a href="<?php echo get_option("tl_logo_link"); ?>" title=""><?php theme_logo(); ?></a></h1>
 
   <div class="clear"></div>
 
